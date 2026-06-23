@@ -1,0 +1,23 @@
+{
+  "model": "IPM OpenAI LLM — gpt-4.1",
+  "avg_f1": 0.7154,
+  "n_test": 100,
+  "n_success": 100,
+  "n_errors": 0,
+  "avg_latency_ms": 2791.3,
+  "classifiers": {
+    "objective": {
+      "f1": 0.8215
+    },
+    "domain": {
+      "f1": 0.7086
+    },
+    "impact": {
+      "f1": 0.8046
+    },
+    "origin": {
+      "f1": 0.527
+    }
+  },
+  "errors": []
+}

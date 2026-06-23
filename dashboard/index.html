@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPM Flow — NLP Tagging</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400&display=swap" rel="stylesheet">
+<link href="assets/fonts/molde-expanded.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  /* DXC color tokens */
+  --dxc-midnight:#0E1020;
+  --dxc-midnight-grey:#1a1f35;
+  --dxc-white:#FFFFFF;
+  --dxc-canvas:#F6F3F0;
+  --dxc-peach:#FFC982;
+  --dxc-sky:#FFC982;
+  --dxc-gold:#FFAE41;
+  --dxc-blue:#FFAE41;
+  --dxc-melon:#FF7E51;
+  --dxc-royal:#D4622A;
+  --dxc-success:#10B981;
+  --dxc-error:#EF4444;
+  --dxc-warning:#F59E0B;
+  --dxc-info:#FF7E51;
+  --dxc-melon-rgb:255,126,81;
+  --dxc-gold-rgb:255,174,65;
+  --model-a:#FF6B35;
+  --model-b:#C44536;
+  --model-c:#004E89;
+  --model-d:#1A659E;
+  --model-a-rgb:255,107,53;
+  --model-b-rgb:196,69,54;
+  --model-c-rgb:0,78,137;
+  --model-d-rgb:26,101,158;
+  --gradient-logo:linear-gradient(90deg,var(--dxc-melon),var(--dxc-gold));
+  --gradient-royal-blue:var(--gradient-melon-gold);
+  --gradient-melon-gold:linear-gradient(90deg,var(--dxc-melon),var(--dxc-gold));
+  --font-display:'Molde Expanded','Inter',system-ui,sans-serif;
+  --font-sans:'Inter',system-ui,sans-serif;
+  --font-mono:'Inter',system-ui,sans-serif;
+  --radius:12px;
+  --radius-lg:16px;
+  --radius-btn:8px;
+  --shadow:0 4px 24px rgba(14,16,32,.08);
+  --shadow-sm:0 2px 8px rgba(14,16,32,.06);
+  --sidebar-w:240px;
+}
+
+html{scroll-behavior:smooth;height:100%}
+body{
+  font-family:var(--font-sans);font-size:1rem;line-height:1.6;
+  color:var(--dxc-midnight);background:var(--dxc-white);
+  height:100%;margin:0;overflow:hidden;
+  min-height:100vh;-webkit-font-smoothing:antialiased;
+}
+
+/* ── Animations (design system) ── */
+@keyframes fade-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes slide-in-right{from{opacity:0;transform:translateX(12px)}to{opacity:1;transform:none}}
+@keyframes spin{to{transform:rotate(360deg)}}
+.anim-fade{animation:fade-in .6s ease-out both}
+.anim-slide{animation:slide-in-right .6s ease-out both}
+
+/* ── App shell (sidebar prototype) ── */
+.app{
+  display:flex;height:100vh;max-height:100vh;padding:16px;gap:16px;
+  background:var(--dxc-white);box-sizing:border-box;overflow:hidden;
+}
+
+.sidebar{
+  width:var(--sidebar-w);flex-shrink:0;height:100%;
+  background:var(--dxc-midnight);border-radius:var(--radius-lg);
+  padding:24px 16px;display:flex;flex-direction:column;gap:8px;
+  animation:fade-in .6s ease-out;overflow:hidden;box-sizing:border-box;
+}
+.logo-dxc{
+  display:block;
+  align-self:center;
+  max-width:140px;
+  width:auto;
+  height:auto;
+  padding:4px 8px 20px;
+  margin:0 auto 8px;
+}
+.nav-item{
+  display:flex;align-items:center;gap:10px;
+  padding:10px 14px;border-radius:var(--radius-btn);
+  font-size:.875rem;font-weight:500;color:rgba(255,255,255,.75);
+  cursor:pointer;transition:background .15s,color .15s;
+  border:none;background:none;width:100%;text-align:left;
+  font-family:var(--font-sans);
+}
+.nav-item:hover{background:rgba(255,255,255,.08);color:#fff}
+.nav-item.active{
+  background:var(--dxc-midnight-grey);color:#fff;
+  box-shadow:inset 3px 0 0 var(--dxc-melon);
+}
+.nav-icon{opacity:.7;font-size:14px;width:18px;text-align:center}
+.sidebar-foot{
+  margin-top:auto;padding:14px 12px 0;
+  border-top:1px solid rgba(255,255,255,.1);
+  font-size:.75rem;color:rgba(255,255,255,.45);line-height:1.5;
+}
+
+.content{
+  flex:1;min-width:0;min-height:0;height:100%;
+  background:var(--dxc-canvas);border-radius:var(--radius-lg);
+  padding:32px 36px 48px;overflow-y:auto;overflow-x:hidden;
+  animation:fade-in .6s ease-out .1s both;box-sizing:border-box;
+}
+
+/* ── Typography ── */
+.page-hero{margin-bottom:32px}
+.page-hero h1{
+  font-family:var(--font-display);font-size:clamp(1.2rem,2.2vw,2.25rem);
+  font-weight:400;line-height:1.15;color:var(--dxc-midnight);margin-bottom:8px;
+  white-space:nowrap;
+}
+.page-hero h1 em{
+  font-style:normal;
+  background:var(--gradient-melon-gold);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+.page-hero p{
+  color:#555;font-size:clamp(.75rem,1.35vw,.9375rem);
+  white-space:nowrap;max-width:none;
+}
+.badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.badge{
+  font-size:.75rem;font-weight:600;padding:6px 12px;border-radius:999px;
+  display:inline-flex;align-items:center;gap:6px;
+}
+.badge-a{background:var(--model-a);color:#fff;border:none}
+.badge-b{background:var(--model-b);color:#fff;border:none}
+.badge-c{background:var(--model-c);color:#fff;border:none}
+.badge-d{background:var(--model-d);color:#fff;border:none}
+.badge-dot{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.9);flex-shrink:0}
+
+h2.sec{
+  font-size:1.25rem;font-weight:700;color:var(--dxc-midnight);
+  margin:36px 0 16px;letter-spacing:-.01em;
+}
+h2.sec:first-of-type{margin-top:0}
+.sec-sub{font-size:.8125rem;color:#777;margin:-8px 0 16px}
+.bench-explainer{
+  background:var(--dxc-white);border:1px solid rgba(14,16,32,.08);
+  border-radius:var(--radius);padding:18px 20px;margin-top:12px;
+  box-shadow:var(--shadow-sm);
+}
+.bench-explainer.is-hidden{display:none}
+.bench-f1-toggle-wrap{margin-top:40px;padding-top:8px;border-top:1px solid rgba(14,16,32,.08)}
+.bench-f1-toggle{
+  font-family:var(--font-sans);font-size:.8125rem;font-weight:600;
+  color:var(--dxc-midnight);background:none;border:none;cursor:pointer;
+  padding:8px 0;display:inline-flex;align-items:center;gap:6px;
+  transition:color .15s;
+}
+.bench-f1-toggle:hover{color:var(--dxc-melon)}
+.bench-f1-toggle-icon{
+  display:inline-block;width:18px;height:18px;border-radius:50%;
+  border:1px solid currentColor;font-size:.75rem;line-height:16px;text-align:center;
+  font-weight:700;flex-shrink:0;
+}
+.bench-explainer-title{
+  font-family:var(--font-display);font-size:.8125rem;font-weight:400;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--dxc-midnight);
+  margin-bottom:8px;
+}
+.bench-explainer p{font-size:.8125rem;color:#555;line-height:1.65;margin:0}
+.bench-explainer strong{color:var(--dxc-midnight);font-weight:600}
+
+/* ── Cards ── */
+.card{
+  background:var(--dxc-white);border:1px solid rgba(14,16,32,.08);
+  border-radius:var(--radius);padding:24px;margin-bottom:20px;
+  box-shadow:var(--shadow-sm);
+}
+.card-label{
+  font-size:.6875rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:#888;margin-bottom:16px;
+}
+
+/* ── Buttons (design system) ── */
+.btn{
+  font-family:var(--font-sans);font-weight:600;border:none;cursor:pointer;
+  border-radius:var(--radius-btn);transition:transform .15s,box-shadow .15s,opacity .15s;
+  display:inline-flex;align-items:center;gap:8px;
+}
+.btn:disabled{opacity:.5;cursor:wait}
+.btn-primary{
+  background:var(--gradient-melon-gold);color:#fff;
+  padding:12px 24px;font-size:.875rem;
+  box-shadow:0 4px 14px rgba(var(--dxc-melon-rgb),.3);
+}
+.btn-primary:hover:not(:disabled){transform:translateY(-1px);box-shadow:0 6px 20px rgba(var(--dxc-gold-rgb),.4)}
+.btn-gradient{
+  background:var(--gradient-melon-gold);color:#fff;
+  padding:12px 24px;font-size:.875rem;
+  box-shadow:0 4px 14px rgba(255,126,81,.3);
+}
+.btn-gradient:hover:not(:disabled){transform:translateY(-1px);box-shadow:0 6px 20px rgba(255,174,65,.4);opacity:.95}
+.btn-secondary{
+  background:var(--dxc-white);color:var(--dxc-royal);
+  border:1.5px solid var(--dxc-royal);padding:6px 14px;font-size:.75rem;
+}
+.btn-secondary:hover{background:rgba(var(--dxc-melon-rgb),.06)}
+.btn-accent{
+  background:var(--dxc-gold);color:var(--dxc-midnight);
+  padding:6px 14px;font-size:.75rem;
+}
+
+.samples{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+
+/* ── Input ── */
+.inp-box{
+  border:1.5px solid rgba(14,16,32,.1);border-radius:var(--radius);
+  overflow:hidden;background:var(--dxc-white);
+  transition:border-color .2s,box-shadow .2s;
+}
+.inp-box:focus-within{border-color:var(--dxc-melon);box-shadow:0 0 0 3px rgba(var(--dxc-melon-rgb),.2)}
+.inp-bar{
+  padding:10px 16px;background:var(--dxc-canvas);border-bottom:1px solid rgba(14,16,32,.08);
+  font-size:.6875rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:#888;display:flex;justify-content:space-between;align-items:center;
+}
+.char-count{font-family:var(--font-mono);font-size:.6875rem;font-weight:400;text-transform:none;letter-spacing:0;color:#aaa}
+textarea{
+  width:100%;border:none;outline:none;resize:vertical;min-height:120px;
+  padding:16px;font-family:var(--font-sans);font-size:.9375rem;line-height:1.7;
+  color:var(--dxc-midnight);background:transparent;
+}
+textarea::placeholder{color:#aaa}
+
+.alert{
+  display:flex;gap:10px;padding:12px 14px;border-radius:var(--radius-btn);
+  font-size:.8125rem;line-height:1.55;margin-top:16px;
+}
+.alert-error{background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.2);color:var(--dxc-error);display:none;margin-top:12px}
+.alert-error.on{display:flex}
+.alert code{font-family:var(--font-mono);font-size:.75rem;background:rgba(255,255,255,.6);padding:2px 6px;border-radius:4px}
+
+.btn-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:20px}
+.spin-wrap{display:none;align-items:center;gap:8px;color:#888;font-size:.8125rem}
+.spin-wrap.on{display:flex}
+.spin{width:14px;height:14px;border:2px solid #ddd;border-top-color:var(--dxc-melon);border-radius:50%;animation:spin .65s linear infinite}
+
+/* ── Results panels ── */
+.rgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.rpanel{
+  background:var(--dxc-white);border:1px solid rgba(14,16,32,.08);
+  border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);
+}
+.rpanel.pa{border-top:none}
+.rpanel.pb{border-top:none}
+.rpanel.pc{border-top:none}
+.rpanel.pd{border-top:none}
+.rhead{
+  padding:14px 18px;
+  display:flex;justify-content:space-between;align-items:center;
+  color:#fff;
+}
+.rhead-a{background:var(--model-a)}
+.rhead-b{background:var(--model-b)}
+.rhead-c{background:var(--model-c)}
+.rhead-d{background:var(--model-d)}
+.rhead .lbl{display:flex;align-items:center;gap:10px;font-size:.8125rem;font-weight:600;color:#fff}
+.rhead .lbl-text{color:#fff}
+.rhead .lbl-icon{
+  width:24px;height:24px;border-radius:6px;display:flex;align-items:center;justify-content:center;
+  font-size:.6875rem;font-weight:700;color:#fff;background:rgba(255,255,255,.2);
+}
+.rhead .lat{font-family:var(--font-mono);font-size:.6875rem;padding:4px 10px;border-radius:999px;font-weight:400;background:rgba(255,255,255,.18);color:#fff}
+.rbody{padding:16px 18px}
+
+.field-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:14px}
+.field-block{
+  background:var(--dxc-white);border:1px solid rgba(14,16,32,.08);
+  border-radius:var(--radius);padding:14px 16px;min-height:88px;
+}
+.flab{
+  font-family:var(--font-display);font-size:.6875rem;font-weight:400;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--dxc-midnight);margin-bottom:10px;
+}
+.tag-list{display:flex;flex-wrap:wrap;gap:8px}
+.tag{
+  display:inline-flex;align-items:stretch;
+  background:var(--dxc-white);border-radius:8px;overflow:hidden;
+  font-size:.8125rem;color:var(--dxc-midnight);border:1.5px solid var(--conf-color);
+}
+.tag--high{--conf-color:#13EFA2;--conf-bg:rgba(19,239,162,.12)}
+.tag--medium{--conf-color:#DED225;--conf-bg:rgba(222,210,37,.14)}
+.tag--low{--conf-color:#FF4F42;--conf-bg:rgba(255,79,66,.1)}
+.tag-ind{
+  display:flex;align-items:center;justify-content:center;
+  width:30px;min-width:30px;
+  font-family:var(--font-display);font-weight:700;font-size:.75rem;
+  color:var(--conf-color);background:var(--conf-bg);
+  border-right:1.5px solid var(--conf-color);
+}
+.tag-label{padding:7px 12px;font-weight:500;line-height:1.3}
+.conf-legend{
+  display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:10px 16px;
+  width:100%;padding-top:8px;font-size:.75rem;color:#888;text-align:center;
+}
+.conf-legend-title{font-weight:500;color:#888}
+.conf-legend-item{display:inline-flex;align-items:center;gap:6px;color:#666}
+.conf-legend-mark{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:22px;height:22px;border-radius:5px;
+  font-family:var(--font-display);font-size:.6875rem;font-weight:700;
+  border:1.5px solid var(--conf-color);color:var(--conf-color);background:var(--conf-bg);
+}
+.conf-legend-item.high{--conf-color:#13EFA2;--conf-bg:rgba(19,239,162,.12)}
+.conf-legend-item.medium{--conf-color:#DED225;--conf-bg:rgba(222,210,37,.14)}
+.conf-legend-item.low{--conf-color:#FF4F42;--conf-bg:rgba(255,79,66,.1)}
+.sugg-item{padding:12px;background:var(--dxc-canvas);border-radius:var(--radius-btn);margin-bottom:8px;font-size:.8125rem;line-height:1.55;border:1px solid rgba(14,16,32,.06)}
+.sugg-label{font-size:.625rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--dxc-melon);margin-bottom:4px}
+.loading-panel{padding:2rem;text-align:center;color:#888;font-size:.8125rem}
+
+/* ── Metric cards ── */
+.mcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.mc{
+  background:var(--dxc-white);border:1px solid rgba(14,16,32,.08);
+  border-radius:var(--radius);padding:16px 18px;
+  transition:transform .15s,box-shadow .15s;
+}
+.mc:hover{transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.mc-lbl{font-size:.625rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#888;margin-bottom:6px;line-height:1.4}
+.mc-val{font-size:1.75rem;font-weight:700;line-height:1;font-family:var(--font-mono)}
+.mc-val.A{color:var(--model-a)}.mc-val.B{color:var(--model-b)}.mc-val.C{color:var(--model-c)}.mc-val.D{color:var(--model-d)}.mc-val.m{color:var(--dxc-midnight)}
+.mc-sub{font-size:.6875rem;color:#aaa;margin-top:4px}
+
+.chart-wrap{
+  background:var(--dxc-white);border:1px solid rgba(14,16,32,.08);
+  border-radius:var(--radius);padding:24px;box-shadow:var(--shadow-sm);
+}
+.legend{display:flex;gap:20px;font-size:.8125rem;color:#555;margin:12px 0}
+.leg-dot{width:10px;height:10px;border-radius:3px;display:inline-block;margin-right:5px;vertical-align:middle}
+.cv{position:relative;height:220px}
+
+.table-wrap{background:var(--dxc-white);border:1px solid rgba(14,16,32,.08);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm)}
+.ctable{width:100%;border-collapse:collapse;font-size:.8125rem}
+.ctable th{
+  text-align:left;font-size:.625rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:#888;padding:12px 18px;background:var(--dxc-canvas);border-bottom:1px solid rgba(14,16,32,.06);
+}
+.ctable td{padding:12px 18px;border-bottom:1px solid rgba(14,16,32,.06);color:#444}
+.ctable tr:last-child td{border-bottom:none}
+.ctable tbody tr:hover td{background:rgba(246,243,240,.6)}
+.dim{color:#888;font-weight:500}
+.va{color:var(--model-a);font-family:var(--font-mono);font-weight:700;font-size:.75rem}
+.vb{color:var(--model-b);font-family:var(--font-mono);font-weight:700;font-size:.75rem}
+.vc{color:var(--model-c);font-family:var(--font-mono);font-weight:700;font-size:.75rem}
+.vd{color:var(--model-d);font-family:var(--font-mono);font-weight:700;font-size:.75rem}
+.wb{display:inline-block;font-size:.625rem;font-weight:700;padding:3px 8px;border-radius:999px;margin-left:6px}
+.wA{background:rgba(var(--model-a-rgb),.08);color:var(--model-a)}
+.wB{background:rgba(var(--model-b-rgb),.12);color:var(--model-b)}
+.wC{background:rgba(var(--model-c-rgb),.12);color:var(--model-c)}
+.wD{background:rgba(var(--model-d-rgb),.12);color:var(--model-d)}
+.wT{background:rgba(14,16,32,.06);color:#666}
+
+.concl{
+  background:var(--dxc-white);border:1px solid rgba(14,16,32,.08);
+  border-left:4px solid var(--dxc-gold);border-radius:var(--radius);
+  padding:24px 28px;box-shadow:var(--shadow-sm);
+}
+.concl-lbl{font-size:.625rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--dxc-gold);margin-bottom:8px}
+.concl h3{font-size:1rem;font-weight:700;line-height:1.5;margin-bottom:10px;color:var(--dxc-midnight)}
+.concl p{font-size:.8125rem;color:#555;line-height:1.75}
+
+.panel{display:none}
+.panel.active{display:block;animation:fade-in .5s ease-out}
+
+@media(max-width:1100px){
+  .rgrid{grid-template-columns:1fr}
+  .field-grid{grid-template-columns:1fr}
+}
+@media(max-width:900px){
+  body{overflow:auto}
+  .app{flex-direction:column;height:auto;max-height:none;min-height:100vh;overflow:visible;padding:12px}
+  .sidebar{width:100%;height:auto;flex-direction:row;flex-wrap:wrap;padding:16px;gap:6px;overflow:visible}
+  .logo-dxc{flex-basis:100%;padding:4px 8px;margin:0 auto;width:auto;max-width:160px}
+  .nav-item{flex:1;min-width:120px;justify-content:center}
+  .sidebar-foot{display:none}
+  .content{height:auto;min-height:0;padding:20px 16px 32px;overflow:visible}
+  .page-hero h1{white-space:normal;font-size:clamp(1.1rem,4.5vw,1.65rem)}
+  .page-hero p{white-space:normal;font-size:clamp(.8rem,3.2vw,.9rem)}
+}
+</style>
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <img src="assets/dxc-logo.png" alt="DXC" class="logo-dxc" />
+    <button class="nav-item active" data-panel="playground" onclick="nav('playground',this)"><span class="nav-icon">◈</span> Playground</button>
+    <button class="nav-item" data-panel="results" onclick="nav('results',this)"><span class="nav-icon">◫</span> Results</button>
+    <button class="nav-item" data-panel="metrics" onclick="nav('metrics',this)"><span class="nav-icon">▤</span> Benchmark</button>
+    <button class="nav-item" data-panel="conclusion" onclick="nav('conclusion',this)"><span class="nav-icon">◉</span> Conclusion</button>
+    <div class="sidebar-foot">IPM Flow · NLP Tagging<br>A · B · C · D</div>
+  </aside>
+
+  <main class="content">
+    <div class="page-hero anim-fade">
+      <h1>IPM Flow — <em>business pitch</em> classification benchmark</h1>
+      <p>Compare Groq and OpenAI zero-shot classification against local TF-IDF and DistilBERT models on the IPM Flow taxonomy.</p>
+      <div class="badges" id="hero-badges">
+        <span class="badge badge-a"><span class="badge-dot"></span>Model A · <span id="badge-groq-model">Groq</span></span>
+        <span class="badge badge-b"><span class="badge-dot"></span>Model B · <span id="badge-openai-model">OpenAI</span></span>
+        <span class="badge badge-c"><span class="badge-dot"></span>Model C · TF-IDF + LR</span>
+        <span class="badge badge-d"><span class="badge-dot"></span>Model D · DistilBERT</span>
+      </div>
+    </div>
+
+    <!-- PLAYGROUND -->
+    <div id="panel-playground" class="panel active">
+      <div class="card anim-slide">
+        <div class="card-label">Try it</div>
+        <div class="samples">
+          <button class="btn btn-secondary" onclick="s(0)">RPA accounting</button>
+          <button class="btn btn-secondary" onclick="s(1)">AI chatbot</button>
+          <button class="btn btn-secondary" onclick="s(2)">GDPR compliance</button>
+          <button class="btn btn-secondary" onclick="s(3)">Credit scoring</button>
+          <button class="btn btn-secondary" onclick="s(4)">Cloud migration</button>
+          <button class="btn btn-secondary" onclick="s(5)">Financial fraud</button>
+        </div>
+        <div class="inp-box">
+          <div class="inp-bar">
+            <span>Business need pitch</span>
+            <span class="char-count" id="cc">0 chars</span>
+          </div>
+          <textarea id="pit" placeholder="Enter a business need pitch in English..." oninput="updateCount()">Automate monthly account reconciliation with an RPA tool to eliminate manual errors and reduce the close cycle from 5 days to 1 day.</textarea>
+        </div>
+        <div class="btn-row">
+          <button class="btn btn-gradient" id="rbtn" onclick="run()">▶ Run comparison</button>
+          <div class="spin-wrap" id="spin"><div class="spin"></div><span id="smsg">Calling APIs…</span></div>
+        </div>
+        <div class="alert alert-error" id="err"></div>
+      </div>
+    </div>
+
+    <!-- RESULTS -->
+    <div id="panel-results" class="panel">
+      <h2 class="sec">Classification results</h2>
+      <div id="res-empty" class="card"><p style="color:#888;font-size:.875rem">Run a comparison from the Playground to see results here.</p></div>
+      <div id="res" style="display:none">
+        <div class="rgrid anim-fade">
+          <div class="rpanel pa">
+            <div class="rhead rhead-a">
+              <span class="lbl"><span class="lbl-icon">A</span><span class="lbl-text">Model A — <span id="panel-groq-model">Groq</span></span></span>
+              <span class="lat" id="la">—</span>
+            </div>
+            <div class="rbody" id="ra"><div class="loading-panel">Loading…</div></div>
+          </div>
+          <div class="rpanel pb">
+            <div class="rhead rhead-b">
+              <span class="lbl"><span class="lbl-icon">B</span><span class="lbl-text">Model B — <span id="panel-openai-model">OpenAI</span></span></span>
+              <span class="lat" id="lb">—</span>
+            </div>
+            <div class="rbody" id="rb"><div class="loading-panel">Loading…</div></div>
+          </div>
+          <div class="rpanel pc">
+            <div class="rhead rhead-c">
+              <span class="lbl"><span class="lbl-icon">C</span><span class="lbl-text">Model C — TF-IDF + LR</span></span>
+              <span class="lat" id="lc">—</span>
+            </div>
+            <div class="rbody" id="rc"><div class="loading-panel">Run comparison…</div></div>
+          </div>
+          <div class="rpanel pd">
+            <div class="rhead rhead-d">
+              <span class="lbl"><span class="lbl-icon">D</span><span class="lbl-text">Model D — DistilBERT</span></span>
+              <span class="lat" id="ld">—</span>
+            </div>
+            <div class="rbody" id="rd"><div class="loading-panel">Run comparison…</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- METRICS -->
+    <div id="panel-metrics" class="panel">
+      <h2 class="sec">Benchmark metrics</h2>
+      <p class="sec-sub" id="bench-sub">Loading benchmark scores…</p>
+      <div class="mcards" id="metric-cards" style="margin-bottom:20px"></div>
+      <div class="chart-wrap">
+        <h2 class="sec" style="margin:0 0 4px;font-size:1rem">F1 by taxonomy dimension</h2>
+        <p class="sec-sub" style="margin-bottom:0" id="chart-sub">Weighted F1 on held-out test set</p>
+        <div class="legend" id="chart-legend"></div>
+        <div class="cv"><canvas id="fc" role="img" aria-label="F1 scores by taxonomy dimension"></canvas></div>
+      </div>
+      <h2 class="sec">Comparison table</h2>
+      <div class="table-wrap">
+        <table class="ctable">
+          <thead id="bench-thead"></thead>
+          <tbody id="bench-table"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- CONCLUSION -->
+    <div id="panel-conclusion" class="panel">
+      <h2 class="sec">Scientific conclusion</h2>
+      <div class="concl anim-fade">
+        <div class="concl-lbl">Level 5 analysis</div>
+        <h3 id="concl-title">Model C leads on average F1 (0.80) on the held-out test set.</h3>
+        <p id="concl-body">
+          <strong>Model C</strong> — best overall (0.80 avg F1), strongest on domain, impact, and origin, sub-millisecond inference.
+          <strong>Model D</strong> — close second (0.79), reliable local alternative.
+          <strong>Models A/B</strong> — best on objective (~0.82) with the updated prompt, but weaker on origin; Groq had 12 API errors on the test run.
+        </p>
+      </div>
+    </div>
+
+    <div class="bench-f1-toggle-wrap">
+      <button type="button" class="bench-f1-toggle" id="bench-f1-toggle" aria-expanded="false" aria-controls="bench-explainer" onclick="toggleF1Explainer()">
+        <span class="bench-f1-toggle-icon" aria-hidden="true">?</span>
+        <span id="bench-f1-toggle-label">What is F1?</span>
+      </button>
+    </div>
+    <div class="bench-explainer is-hidden" id="bench-explainer">
+      <div class="bench-explainer-title">What is F1?</div>
+      <p>
+        <strong>F1</strong> scores how well each model assigns the correct IPM Flow labels
+        (Objective, Domain, Impact, Origin) to business pitches. It balances
+        <strong>precision</strong> (avoiding wrong tags) and <strong>recall</strong>
+        (finding the right tags). Values range from <strong>0 to 1</strong> — higher is better.
+        <strong>Avg F1</strong> is the mean across all four taxonomy dimensions on a held-out test set.
+        Per-dimension scores use <strong>weighted F1</strong>, so frequent labels do not dominate rare ones.
+      </p>
+    </div>
+  </main>
+</div>
+
+<script>
+function nav(id,el){
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
+  document.getElementById('panel-'+id).classList.add('active');
+  el.classList.add('active');
+  document.getElementById('hero-badges').style.display=id==='results'?'none':'';
+}
+
+function toggleF1Explainer(){
+  const el=document.getElementById('bench-explainer');
+  const btn=document.getElementById('bench-f1-toggle');
+  const label=document.getElementById('bench-f1-toggle-label');
+  const open=el.classList.toggle('is-hidden')===false;
+  btn.setAttribute('aria-expanded',open?'true':'false');
+  label.textContent=open?'Hide F1 explanation':'What is F1?';
+  if(open) el.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
+function updateCount(){
+  const n=document.getElementById('pit').value.length;
+  document.getElementById('cc').textContent=n+' char'+(n===1?'':'s');
+}
+updateCount();
+
+const SAMPLES=[
+  "Automate monthly account reconciliation with an RPA tool to eliminate manual errors and reduce the close cycle from 5 days to 1 day.",
+  "Deploy a conversational AI assistant on the customer portal to reduce response time from 48 hours to 2 hours.",
+  "Bring the information system into GDPR compliance before the Q2 regulatory audit.",
+  "Launch an AI-based credit scoring offering to address the underserved SMB market.",
+  "Migrate on-premise servers to the cloud to cut infrastructure costs by 40%.",
+  "Automate fraud detection on financial transactions using a real-time ML model."
+];
+function s(i){document.getElementById('pit').value=SAMPLES[i];updateCount()}
+
+const MODEL_STYLE={
+  a:{color:'#FF6B35',bg:'rgba(255,107,53,.78)',cls:'A',short:'Groq'},
+  b:{color:'#C44536',bg:'rgba(196,69,54,.78)',cls:'B',short:'OpenAI'},
+  c:{color:'#004E89',bg:'rgba(0,78,137,.75)',cls:'C',short:'TF-IDF + LR'},
+  d:{color:'#1A659E',bg:'rgba(26,101,158,.72)',cls:'D',short:'DistilBERT'}
+};
+const DIMS=['objective','domain','impact','origin'];
+const DIM_LABELS=['Objective','Domain','Impact','Origin'];
+let benchChart=null;
+let benchData={};
+
+function fmtF1(v){return v!=null&&!isNaN(v)?Number(v).toFixed(2):'—'}
+
+function metricSub(ev,key){
+  if(!ev) return 'Not available';
+  if(ev.avg_latency_ms!=null){
+    const scored=ev.n_success!=null?` · ${ev.n_success}/${ev.n_test} scored`:'';
+    const err=ev.n_errors?` · ${ev.n_errors} error${ev.n_errors===1?'':'s'}`:'';
+    return `Measured · ${Math.round(ev.avg_latency_ms)}ms avg${scored}${err}`;
+  }
+  const infer=ev.classifiers?.objective?.infer_ms;
+  if(infer!=null) return `Local · ~${Number(infer).toFixed(2)}ms/pitch`;
+  return 'Measured · local inference';
+}
+
+function buildConclusion(){
+  const ranked=['a','b','c','d'].map(k=>({k,v:benchData[k]?.avg_f1??null})).filter(x=>x.v!=null).sort((a,b)=>b.v-a.v);
+  if(!ranked.length) return;
+  const top=ranked[0];
+  document.getElementById('concl-title').textContent=`Model ${top.k.toUpperCase()} leads on average F1 (${fmtF1(top.v)}) on the held-out test set.`;
+
+  const dimBest={};
+  DIMS.forEach(dim=>{
+    let bestK=null,bestV=-1;
+    ['a','b','c','d'].forEach(k=>{
+      const v=benchData[k]?.classifiers?.[dim]?.f1;
+      if(v!=null&&v>bestV){bestV=v;bestK=k;}
+    });
+    if(bestK) dimBest[dim]={k:bestK,v:bestV};
+  });
+
+  const parts=[];
+  const c=benchData.c, d=benchData.d, a=benchData.a, b=benchData.b;
+  if(c){
+    const wins=DIMS.filter(dim=>dimBest[dim]?.k==='c').map(dim=>DIM_LABELS[DIMS.indexOf(dim)].toLowerCase());
+    const winTxt=wins.length?` — best on ${wins.join(' and ')}`:'';
+    parts.push(`<strong>Model C</strong> (${fmtF1(c.avg_f1)} avg F1)${winTxt}, sub-millisecond inference`);
+  }
+  if(d){
+    const wins=DIMS.filter(dim=>dimBest[dim]?.k==='d').map(dim=>DIM_LABELS[DIMS.indexOf(dim)].toLowerCase());
+    const winTxt=wins.length?`, best on ${wins.join(' and ')}`:'';
+    parts.push(`<strong>Model D</strong> (${fmtF1(d.avg_f1)} avg F1${winTxt})`);
+  }
+  if(a||b){
+    const llmErr=(a?.n_errors||0)+(b?.n_errors||0);
+    const bestObjective=Math.max(a?.classifiers?.objective?.f1||0,b?.classifiers?.objective?.f1||0);
+    const originNote=[];
+    if(a) originNote.push(`Groq origin ${fmtF1(a.classifiers?.origin?.f1)}`);
+    if(b) originNote.push(`OpenAI origin ${fmtF1(b.classifiers?.origin?.f1)}`);
+    parts.push(`<strong>Models A/B</strong> — strongest on objective (~${fmtF1(bestObjective)} F1) with the updated prompt, but weaker on origin (${originNote.join(', ')})${llmErr?`; ${llmErr} API errors on test set`:''}`);
+  }
+  document.getElementById('concl-body').innerHTML=parts.join('. ')+'.';
+}
+
+async function classifyLLM(text, provider){
+  const t0=performance.now();
+  const res=await fetch('/api/classify',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text,provider})});
+  const data=await res.json();
+  if(!res.ok) throw new Error(data.error||`HTTP ${res.status}`);
+  return{result:JSON.parse((data.content||'{}').replace(/```json|```/g,'').trim()),latency:`${Math.round(performance.now()-t0)}ms`};
+}
+
+async function classifyLocal(text, model){
+  const t0=performance.now();
+  const res=await fetch('/api/predict',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text,model})});
+  const data=await res.json();
+  if(!res.ok) throw new Error(data.error||`HTTP ${res.status}`);
+  const lat=data._meta?.latency_ms??Math.round(performance.now()-t0);
+  return{result:data,latency:`${lat}ms`};
+}
+
+const FIELD_LABELS={objective:'Objective',domain:'Domain',impact:'Impact',origin:'Origin'};
+function fmtTagLabel(s){return s.replace(/_/g,' ').replace(/\b\w/g,c=>c.toUpperCase())}
+function tagHtml(value,confidence){
+  const band=confidence||'low';
+  const letter=band[0].toUpperCase();
+  return `<span class="tag tag--${band}"><span class="tag-ind">${letter}</span><span class="tag-label">${fmtTagLabel(value)}</span></span>`;
+}
+function confLegendHtml(){
+  return `<div class="conf-legend">
+    <span class="conf-legend-title">AI Confidence :</span>
+    <span class="conf-legend-item high"><span class="conf-legend-mark">H</span>High</span>
+    <span class="conf-legend-item medium"><span class="conf-legend-mark">M</span>Medium</span>
+    <span class="conf-legend-item low"><span class="conf-legend-mark">L</span>Low</span>
+  </div>`;
+}
+
+function renderTags(tags,panelId,suggestions){
+  const el=document.getElementById(panelId);
+  let html='<div class="field-grid">';
+  for(const f of DIMS){
+    const v=tags[f]; if(!v) continue;
+    html+=`<div class="field-block"><div class="flab">${FIELD_LABELS[f]}</div><div class="tag-list">`;
+    if(Array.isArray(v)) v.forEach(t=>{html+=tagHtml(t.value,t.confidence)});
+    else html+=tagHtml(v.value,v.confidence);
+    html+='</div></div>';
+  }
+  html+='</div>'+confLegendHtml();
+  if(suggestions?.length){
+    html+='<div class="flab" style="margin-top:4px">Suggestions</div>';
+    suggestions.forEach(s=>{html+=`<div class="sugg-item"><div class="sugg-label">${s.label}</div>${s.text}</div>`});
+  }
+  el.innerHTML=html;
+}
+
+async function run(){
+  const pitch=document.getElementById('pit').value.trim();
+  if(!pitch) return;
+  const rbtn=document.getElementById('rbtn'), spin=document.getElementById('spin'), smsg=document.getElementById('smsg'), err=document.getElementById('err');
+  rbtn.disabled=true; spin.classList.add('on'); err.classList.remove('on');
+  smsg.textContent='Running all 4 models…';
+  ['ra','rb','rc','rd'].forEach(id=>document.getElementById(id).innerHTML='<div class="loading-panel">Running…</div>');
+  ['la','lb','lc','ld'].forEach(id=>document.getElementById(id).textContent='…');
+  document.getElementById('res-empty').style.display='none';
+  document.getElementById('res').style.display='block';
+  nav('results',document.querySelector('[data-panel="results"]'));
+
+  const jobs=[
+    {key:'a',fn:()=>classifyLLM(pitch,'groq'),panel:'ra',lat:'la'},
+    {key:'b',fn:()=>classifyLLM(pitch,'openai'),panel:'rb',lat:'lb'},
+    {key:'c',fn:()=>classifyLocal(pitch,'c'),panel:'rc',lat:'lc'},
+    {key:'d',fn:()=>classifyLocal(pitch,'d'),panel:'rd',lat:'ld'}
+  ];
+  const results=await Promise.allSettled(jobs.map(j=>j.fn()));
+  const errors=[];
+  results.forEach((res,i)=>{
+    const j=jobs[i];
+    if(res.status==='fulfilled'){
+      document.getElementById(j.lat).textContent=res.value.latency;
+      renderTags(res.value.result.tags,j.panel,res.value.result.suggestions);
+    }else{
+      errors.push(`Model ${j.key.toUpperCase()}: ${res.reason.message}`);
+      document.getElementById(j.lat).textContent='error';
+      document.getElementById(j.panel).innerHTML=`<div class="loading-panel" style="color:var(--dxc-error)">${res.reason.message}</div>`;
+    }
+  });
+  if(errors.length){
+    err.innerHTML=errors.join('<br>');
+    err.classList.add('on');
+  }
+  rbtn.disabled=false; spin.classList.remove('on');
+}
+
+function f1Series(evalData){
+  if(!evalData?.classifiers) return DIMS.map(()=>null);
+  return DIMS.map(d=>evalData.classifiers[d]?.f1??null);
+}
+
+function renderBenchmark(models){
+  benchData={};
+  models.forEach(m=>{ if(m.eval) benchData[m.key]=m.eval; });
+
+  const available=models.filter(m=>m.eval);
+  const nTest=available[0]?.eval?.n_test;
+  document.getElementById('bench-sub').textContent=nTest
+    ? `Held-out test set · ${nTest} pitches · updated LLM prompt`
+    : 'Benchmark scores are not available yet.';
+  if(nTest) document.getElementById('chart-sub').textContent=`Weighted F1 on ${nTest}-pitch test set`;
+
+  const cards=document.getElementById('metric-cards');
+  cards.innerHTML='';
+  ['a','b','c','d'].forEach(key=>{
+    const ev=benchData[key];
+    const st=MODEL_STYLE[key];
+    const mc=document.createElement('div'); mc.className='mc';
+    mc.innerHTML=`<div class="mc-lbl">Avg F1 — Model ${key.toUpperCase()} (${st.short})</div>
+      <div class="mc-val ${st.cls}">${fmtF1(ev?.avg_f1)}</div>
+      <div class="mc-sub">${metricSub(ev,key)}</div>`;
+    cards.appendChild(mc);
+  });
+
+  const legend=document.getElementById('chart-legend');
+  legend.innerHTML=['a','b','c','d'].map(k=>{
+    const st=MODEL_STYLE[k];
+    return `<span><span class="leg-dot" style="background:${st.color}"></span>Model ${k.toUpperCase()} (${st.short})</span>`;
+  }).join('');
+
+  const thead=document.getElementById('bench-thead');
+  thead.innerHTML='<tr><th>Dimension</th>'+['a','b','c','d'].map(k=>`<th>Model ${k.toUpperCase()}</th>`).join('')+'<th>Best</th></tr>';
+
+  const tbody=document.getElementById('bench-table');
+  tbody.innerHTML='';
+  DIMS.forEach((dim,di)=>{
+    const scores=['a','b','c','d'].map(k=>benchData[k]?.classifiers?.[dim]?.f1??null);
+    let bestKey=null, bestVal=-1;
+    scores.forEach((v,i)=>{ if(v!=null&&v>bestVal){ bestVal=v; bestKey=['a','b','c','d'][i]; }});
+    const cells=scores.map((v,i)=>{
+      const k=['a','b','c','d'][i];
+      return `<td class="v${k}">${fmtF1(v)}</td>`;
+    }).join('');
+    const bestBadge=bestKey?`<span class="wb w${bestKey.toUpperCase()}">${bestKey.toUpperCase()}</span>`:'<span class="wb wT">—</span>';
+    tbody.innerHTML+=`<tr><td class="dim">F1 (${DIM_LABELS[di]})</td>${cells}${bestBadge}</tr>`;
+  });
+
+  const avgRow=['a','b','c','d'].map(k=>benchData[k]?.avg_f1??null);
+  let bestAvgKey=null, bestAvg=-1;
+  avgRow.forEach((v,i)=>{ if(v!=null&&v>bestAvg){ bestAvg=v; bestAvgKey=['a','b','c','d'][i]; }});
+  tbody.innerHTML+=`<tr><td class="dim"><strong>Avg F1</strong></td>${avgRow.map((v,i)=>`<td class="v${['a','b','c','d'][i]}"><strong>${fmtF1(v)}</strong></td>`).join('')}${bestAvgKey?`<td><span class="wb w${bestAvgKey.toUpperCase()}">${bestAvgKey.toUpperCase()}</span></td>`:'<td><span class="wb wT">—</span></td>'}</tr>`;
+
+  const datasets=['a','b','c','d'].map(k=>({
+    label:`Model ${k.toUpperCase()} (${MODEL_STYLE[k].short})`,
+    data:f1Series(benchData[k]),
+    backgroundColor:MODEL_STYLE[k].bg,
+    borderColor:MODEL_STYLE[k].color,
+    borderWidth:1,borderRadius:6,borderSkipped:false
+  }));
+
+  if(!benchChart){
+    benchChart=new Chart(document.getElementById('fc').getContext('2d'),{
+      type:'bar',
+      data:{labels:DIM_LABELS,datasets},
+      options:{
+        responsive:true,maintainAspectRatio:false,
+        plugins:{legend:{display:false},tooltip:{backgroundColor:'#0E1020',padding:10,cornerRadius:8,titleFont:{family:'Inter'},bodyFont:{family:'Inter',size:11}}},
+        scales:{
+          x:{ticks:{color:'#888',font:{family:'Inter',size:12,weight:'500'}},grid:{display:false},border:{color:'#e8e8e8'}},
+          y:{min:0,max:1,ticks:{color:'#888',font:{family:'Inter',size:11},callback:v=>v.toFixed(1)},grid:{color:'#F6F3F0'},border:{color:'#e8e8e8'}}
+        }
+      }
+    });
+  }else{
+    benchChart.data.datasets=datasets;
+    benchChart.update();
+  }
+
+  buildConclusion();
+}
+
+async function loadBenchmark(){
+  try{
+    const res=await fetch('/api/benchmark');
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    renderBenchmark((await res.json()).models);
+  }catch(e){
+    document.getElementById('bench-sub').textContent='Could not load benchmark data. Please refresh the page.';
+  }
+}
+
+async function loadProviders(){
+  try{
+    const res=await fetch('/api/providers');
+    if(!res.ok) return;
+    const data=await res.json();
+    if(data.groq?.model){
+      document.getElementById('badge-groq-model').textContent=data.groq.model;
+      document.getElementById('panel-groq-model').textContent=data.groq.model;
+    }
+    if(data.openai?.model){
+      document.getElementById('badge-openai-model').textContent=data.openai.model;
+      document.getElementById('panel-openai-model').textContent=data.openai.model;
+    }
+  }catch(_){}
+}
+
+loadBenchmark();
+loadProviders();
+</script>
+</body>
+</html>

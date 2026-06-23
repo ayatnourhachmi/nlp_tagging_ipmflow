@@ -1,0 +1,39 @@
+{
+  "model": "IPM Model C — TF-IDF trigram + LogisticRegression (OVR for multi-label)",
+  "avg_f1": 0.8039,
+  "n_train": 400,
+  "n_test": 100,
+  "classifiers": {
+    "objective": {
+      "f1": 0.777,
+      "train_s": 0.054,
+      "infer_ms": 0.007,
+      "classes": [
+        "cost_reduction",
+        "cx_improvement",
+        "market_opportunity",
+        "risk_mitigation"
+      ]
+    },
+    "domain": {
+      "f1": 0.8021,
+      "train_s": 0.088,
+      "infer_ms": 0.012
+    },
+    "impact": {
+      "f1": 0.8076,
+      "train_s": 0.034,
+      "infer_ms": 0.008
+    },
+    "origin": {
+      "f1": 0.8289,
+      "train_s": 0.032,
+      "infer_ms": 0.003,
+      "classes": [
+        "client_request",
+        "market_driver",
+        "operational_problem"
+      ]
+    }
+  }
+}

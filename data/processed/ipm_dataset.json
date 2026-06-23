@@ -1,0 +1,8195 @@
+[
+  {
+    "text": "Acquire a fintech API startup vs build in-house payment rails — strategy team wants decision support.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Other"
+      ],
+      "impact": [
+        "Revenue",
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "edge",
+    "id": 0
+  },
+  {
+    "text": "Implement real-time NPS with semantic analysis of customer verbatims using NLP.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "AI",
+        "Data"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 1
+  },
+  {
+    "text": "Audit found duplicate vendor payments totaling €400K — we need automated three-way matching on invoices.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 2
+  },
+  {
+    "text": "Start a customer data platform to unify identities across web, mobile, and CRM for personalized marketing Target delivery within 12 months.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "Revenue",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 3
+  },
+  {
+    "text": "The steering committee approved deploy a cloud-based PBX and unified communications platform to replace aging on-premise telephony.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 4
+  },
+  {
+    "text": "Security wants to block all USB drives; field technicians say they need them to service equipment off-grid.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "edge",
+    "id": 5
+  },
+  {
+    "text": "The steering committee approved establish a sabbatical and flexible leave management module that integrates with payroll and project planning.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 6
+  },
+  {
+    "text": "Design an operating model for the digital business unit clarifying roles, funding, and governance.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Other"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 7
+  },
+  {
+    "text": "Automate production planning with a constraint-based scheduling engine linked to live demand signals.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 8
+  },
+  {
+    "text": "Create a competitive intelligence data feed aggregating news, filings, and job postings into analyst dashboards.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 9
+  },
+  {
+    "text": "Developers on our platform want webhook retries and signing — top request on the public roadmap forum.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 10
+  },
+  {
+    "text": "Implement dynamic discounting on supplier invoices to capture early-payment savings worth €1.2M.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 11
+  },
+  {
+    "text": "Expand into the MENA region by localizing the platform for Arabic, regional payment rails, and tax rules.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 12
+  },
+  {
+    "text": "Business priority: create an AI-powered legal contract review tool for in-house legal teams in regulated industries Expected ROI within 18 months.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 13
+  },
+  {
+    "text": "Create a digital ethics board to review AI system deployments for bias, fairness, and explainability.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Other",
+        "AI"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 14
+  },
+  {
+    "text": "Replace manual data entry across eight legacy forms with intelligent document processing and validation.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 15
+  },
+  {
+    "text": "Cloud security posture review found 140 misconfigured S3 buckets — CSPM tooling needed before next board audit.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cloud",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 16
+  },
+  {
+    "text": "As part of the 2026 roadmap, insurance regulator asked for explainable AI on underwriting models — compliance deadline in 9 months Expected ROI within 18 months.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 17
+  },
+  {
+    "text": "Deploy a zero-trust architecture and managed SOC to secure remote access post-COVID.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 18
+  },
+  {
+    "text": "Roll out an LLM-based contract extraction tool to automate clause-level review and risk flagging.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 19
+  },
+  {
+    "text": "Launch an instant payment solution for SMBs to capture a new market segment.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 20
+  },
+  {
+    "text": "Implement a B2B loyalty program with usage-based personalized offers.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "Revenue",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 21
+  },
+  {
+    "text": "Automate change-management controls in the ERP to enforce segregation of duties and audit trails.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 22
+  },
+  {
+    "text": "Launch a visual product configurator so B2B buyers can self-design and price complex orders.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 23
+  },
+  {
+    "text": "Build a supply chain control tower aggregating supplier, logistics, and inventory data into one live view.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 24
+  },
+  {
+    "text": "Integrate a generative AI content module into our SaaS product to differentiate from competitors.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 25
+  },
+  {
+    "text": "Digitize the new hire onboarding journey to reduce time-to-productivity from 3 months to 6 weeks.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 26
+  },
+  {
+    "text": "We need to security wants to block all USB drives; field technicians say they need them to service equipment off-grid.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 27
+  },
+  {
+    "text": "Implement a total cost of ownership model for technology platforms to guide build-buy-partner decisions.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Other",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 28
+  },
+  {
+    "text": "Launch a next-day express delivery service powered by AI-driven logistics optimization.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "Revenue",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 29
+  },
+  {
+    "text": "Deploy a satellite imagery AI to monitor agricultural fields and generate crop yield forecasts for commodity trading.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Data"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 30
+  },
+  {
+    "text": "The steering committee approved create a competitive intelligence data feed aggregating news, filings, and job postings into analyst dashboards.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 31
+  },
+  {
+    "text": "Offer a freemium tier to grow the user base faster, even though it dilutes revenue per seat in the short term.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "edge",
+    "id": 32
+  },
+  {
+    "text": "Deploy a multi-cloud strategy to avoid single-vendor lock-in and improve price negotiation leverage.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cloud",
+        "Finance"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 33
+  },
+  {
+    "text": "Deploy a real-time fraud scoring service on the payments ledger using behavioral and velocity features.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 34
+  },
+  {
+    "text": "Launch an instant payment solution for SMBs to capture a new market segment Expected ROI within 18 months.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 35
+  },
+  {
+    "text": "Deploy a document intelligence system that extracts structured data from invoices, contracts, and forms at scale.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 36
+  },
+  {
+    "text": "Deploy a track-and-trace solution to provide full supply chain visibility to customers.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Operations",
+        "Data"
+      ],
+      "impact": [
+        "Revenue",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 37
+  },
+  {
+    "text": "Create a financial analytics platform integrating GL, cost center, and project data for real-time P&L visibility.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 38
+  },
+  {
+    "text": "Create a digital twin of the organization to simulate restructuring scenarios before execution.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other",
+        "AI"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 39
+  },
+  {
+    "text": "Establish a cloud-based disaster recovery plan to guarantee an RTO under 4 hours.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cloud",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 40
+  },
+  {
+    "text": "The retail partner consortium wants a shared analytics view of sell-through data — this came up in every QBR.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Data",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "real",
+    "id": 41
+  },
+  {
+    "text": "Deploy an API gateway with WAF and rate limiting to protect all public-facing services.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Cloud"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 42
+  },
+  {
+    "text": "Business priority: insurance regulator asked for explainable AI on underwriting models — compliance deadline in 9 months.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 43
+  },
+  {
+    "text": "Developers push secrets to GitHub weekly — implement secret scanning and vault-based credential rotation.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Cloud"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 44
+  },
+  {
+    "text": "AI-driven threat hunting is reactive today — security team wants proactive hunt cycles using behavioral baselines.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "AI"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 45
+  },
+  {
+    "text": "Deploy deception technology (honeypots, honeytokens) to detect lateral movement inside the network early.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 46
+  },
+  {
+    "text": "Roll out a document intelligence system that extracts structured data from invoices, contracts, and forms at scale Requested by business stakeholders.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 47
+  },
+  {
+    "text": "Deploy a regulatory compliance management tool to avoid penalties exceeding $5M.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 48
+  },
+  {
+    "text": "Expand into Southeast Asia before competitors — requires localized payments, tax, and bilingual support.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Revenue",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "edge",
+    "id": 49
+  },
+  {
+    "text": "Introduce a PMO with OKR-based tracking to align project delivery with corporate strategic objectives Expected ROI within 18 months.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 50
+  },
+  {
+    "text": "Automate procurement approval workflows to cut purchase-order cycle time from 10 days to 2.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 51
+  },
+  {
+    "text": "Introduce an e-signature solution to digitize 100% of customer contracts Requested by business stakeholders.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 52
+  },
+  {
+    "text": "Build a cloud-native SaaS edition of the on-premise product to address SMB buyers who cannot self-host.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 53
+  },
+  {
+    "text": "Create a shared services center for finance, HR, and IT to reduce duplication and improve quality.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Other",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 54
+  },
+  {
+    "text": "Deploy data loss prevention (DLP) on email and cloud storage to stop exfiltration of PII.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 55
+  },
+  {
+    "text": "Improve IT incident management with an ITSM tool and AI-powered knowledge base.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 56
+  },
+  {
+    "text": "Business priority: implement a field service management platform to optimize technician dispatch and first-fix rate Part of the digital transformation program.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 57
+  },
+  {
+    "text": "Automate personal data discovery and classification across structured and unstructured data stores for GDPR.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 58
+  },
+  {
+    "text": "Deploy an AI-powered pricing optimizer that adjusts margins dynamically based on demand and competitor signals.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 59
+  },
+  {
+    "text": "Migrate the legacy reporting layer from a monolithic BI tool to a modern cloud-native analytics stack.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Cloud"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 60
+  },
+  {
+    "text": "Create a developer ecosystem with SDKs and an API marketplace to attract third-party integrations.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Cloud",
+        "Data"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 61
+  },
+  {
+    "text": "The steering committee approved union negotiations require transparent shift-swap and overtime tracking — current spreadsheets are error-prone.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "HR",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 62
+  },
+  {
+    "text": "Automate IT asset lifecycle management to eliminate shadow IT and cut license waste by 30%.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 63
+  },
+  {
+    "text": "Build a computer vision quality inspection system to detect manufacturing defects at line speed.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 64
+  },
+  {
+    "text": "Implement automatic cloud resource scheduling to power down non-production environments outside business hours.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 65
+  },
+  {
+    "text": "Launch a formal enterprise architecture board to govern technology standards and reduce duplication.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Other",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 66
+  },
+  {
+    "text": "Our top insurance client requested real-time claim status on the portal — legal signed off, delivery expected in Q3.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "real",
+    "id": 67
+  },
+  {
+    "text": "The steering committee approved introduce infrastructure-as-code with policy guardrails to prevent misconfiguration in cloud environments.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cloud",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 68
+  },
+  {
+    "text": "Implement data governance policies with ownership, stewardship, and quality SLAs for all critical data domains.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 69
+  },
+  {
+    "text": "Legal team spends 3 hours per contract on clause extraction — pilot generative AI review to cut that to 20 minutes.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Revenue"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 70
+  },
+  {
+    "text": "Procurement flagged that suppliers want electronic PO confirmation — buyers are pushing us to deliver it.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "Finance"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "client_request"
+    },
+    "source": "real",
+    "id": 71
+  },
+  {
+    "text": "Create a self-service analytics environment with governed access tiers so analysts can explore without IT tickets.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Cloud"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 72
+  },
+  {
+    "text": "Offer embedded lending to marketplace sellers — new fee income stream from transaction data.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Data"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 73
+  },
+  {
+    "text": "As part of the 2026 roadmap, introduce a continuous 360-degree feedback tool to improve employee engagement.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Data"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 74
+  },
+  {
+    "text": "Implement a model risk management framework covering all production ML models used in business decisions.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 75
+  },
+  {
+    "text": "New CSRD directive requires gender pay-gap reporting by next April — payroll data is too fragmented to produce it today.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "HR",
+        "Finance"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "real",
+    "id": 76
+  },
+  {
+    "text": "Shift from reactive to planned maintenance using predictive analytics on equipment sensor data.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 77
+  },
+  {
+    "text": "Create a white-label partner portal with branded dashboards for the reseller channel.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Data"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 78
+  },
+  {
+    "text": "Use generative AI to draft support replies faster — goal is both cost takeout and higher CSAT scores.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "edge",
+    "id": 79
+  },
+  {
+    "text": "People analytics is blind: headcount, skills, and attrition live in five different systems — CHRO wants one source of truth.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Data"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 80
+  },
+  {
+    "text": "Deploy an event-driven architecture on a managed cloud broker to decouple 30 tightly-coupled microservices.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 81
+  },
+  {
+    "text": "Create an industry benchmark data product from anonymized platform usage data for subscription revenue.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 82
+  },
+  {
+    "text": "Encrypt sensitive customer data in transit and at rest to comply with ISO 27001.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 83
+  },
+  {
+    "text": "Patient advocacy group requested plain-language billing summaries — board approved as reputational priority.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 84
+  },
+  {
+    "text": "Business priority: board mandate: all privileged admin sessions must be recorded and reviewed — PAM tooling not in place today.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 85
+  },
+  {
+    "text": "Implement a conversational AI agent that handles password resets, access requests, and IT FAQs autonomously.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 86
+  },
+  {
+    "text": "Deploy a workforce planning simulation tool to model headcount scenarios against revenue forecasts.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "HR",
+        "Data"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 87
+  },
+  {
+    "text": "Improve the customer claims process to reduce handling time from 10 to 3 days.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 88
+  },
+  {
+    "text": "Consolidate three regional data centers into a single cloud provider to reduce OpEx by 35% Requested by business stakeholders.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 89
+  },
+  {
+    "text": "As part of the 2026 roadmap, build a FinTech partnerships program to extend the core product with best-of-breed third-party capabilities.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other",
+        "Finance"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 90
+  },
+  {
+    "text": "Remote-work survey shows 34% of employees feel isolated — need a digital well-being and connection platform.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "real",
+    "id": 91
+  },
+  {
+    "text": "Launch a technology partnership program to accelerate international expansion.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 92
+  },
+  {
+    "text": "Implement a continuous 360-degree feedback tool to improve employee engagement Target delivery within 12 months.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Data"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 93
+  },
+  {
+    "text": "Launch a telemedicine solution to address the fast-growing remote healthcare market.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Cloud",
+        "AI"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 94
+  },
+  {
+    "text": "Implement a social listening AI to track brand mentions and surface emerging reputational risks in real time.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "AI",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 95
+  },
+  {
+    "text": "Develop a data-as-a-service platform to monetize proprietary data with third parties.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 96
+  },
+  {
+    "text": "Launch a merger integration office to consolidate systems and processes post-acquisition within 18 months.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Other",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 97
+  },
+  {
+    "text": "Build a generative AI tool that drafts RFP responses from past proposals reducing bid preparation time by 70%.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Revenue"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 98
+  },
+  {
+    "text": "Implement an operational risk management solution compliant with Basel IV.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 99
+  },
+  {
+    "text": "Deploy a global CDN and edge computing layer to reduce API latency for international users below 100ms Part of the digital transformation program.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 100
+  },
+  {
+    "text": "Personalize product recommendations using machine learning to increase customer satisfaction.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "AI",
+        "Data"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 101
+  },
+  {
+    "text": "Implement a software supply chain security framework covering SBOM, signing, and dependency audit.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Cloud"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 102
+  },
+  {
+    "text": "Deploy an industrial predictive maintenance solution to enter the Industry 4.0 market.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 103
+  },
+  {
+    "text": "Embedded analytics in our SaaS product is the top feature request — adding it would unlock the enterprise tier upsell.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Data"
+      ],
+      "impact": [
+        "Revenue",
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "real",
+    "id": 104
+  },
+  {
+    "text": "Implement a PMO with OKR-based tracking to align project delivery with corporate strategic objectives.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 105
+  },
+  {
+    "text": "Deploy an API gateway with WAF and rate limiting to protect all public-facing services Requested by business stakeholders.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Cloud"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 106
+  },
+  {
+    "text": "Replace legacy ERP modules gradually vs big-bang — finance and supply chain disagree on sequencing.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "edge",
+    "id": 107
+  },
+  {
+    "text": "Develop an AI-powered legal contract review tool for in-house legal teams in regulated industries.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 108
+  },
+  {
+    "text": "Consolidate CRM and billing platforms to cut SaaS spend while giving clients a single self-service account view.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Finance"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "edge",
+    "id": 109
+  },
+  {
+    "text": "As part of the 2026 roadmap, deploy a dark data discovery tool to identify and classify unstructured content with sensitive information.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 110
+  },
+  {
+    "text": "Shift-left security in CI/CD: developers resist friction but breach risk on public-facing apps is rising.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Cloud"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "edge",
+    "id": 111
+  },
+  {
+    "text": "Pilot copilot for engineers: productivity gain unclear but talent retention argument is strong.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "AI",
+        "HR"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "edge",
+    "id": 112
+  },
+  {
+    "text": "Deploy a supplier risk management solution to anticipate supply disruptions.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Operations",
+        "Data"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 113
+  },
+  {
+    "text": "Create an internal venture studio to spin off high-potential digital products as standalone revenue streams.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 114
+  },
+  {
+    "text": "Build a hybrid cloud connectivity layer with SD-WAN to unify branch, data center, and cloud networking.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 115
+  },
+  {
+    "text": "Establish a digital center of excellence to accelerate capability building and reduce external consulting spend.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Other",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 116
+  },
+  {
+    "text": "Customer success escalated repeated complaints about slow refund processing — we need a visible SLA workflow.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "Finance"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "real",
+    "id": 117
+  },
+  {
+    "text": "Deploy an omnichannel customer feedback tool to centralize insights and accelerate corrective actions.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 118
+  },
+  {
+    "text": "Introduce infrastructure-as-code with policy guardrails to prevent misconfiguration in cloud environments.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cloud",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 119
+  },
+  {
+    "text": "Business priority: deploy a conversational AI assistant on the customer portal to reduce response time from 48 hours to 2 hours.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 120
+  },
+  {
+    "text": "Build a knowledge management platform to capture institutional expertise before critical retirements.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Other",
+        "HR"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 121
+  },
+  {
+    "text": "Standardize HR and IT service desk on one platform — employee experience vs integration cost tradeoff.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "client_request"
+    },
+    "source": "edge",
+    "id": 122
+  },
+  {
+    "text": "Deploy a cyber-resilience program including regular attack simulation exercises.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 123
+  },
+  {
+    "text": "Deploy a cloud-based PBX and unified communications platform to replace aging on-premise telephony.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 124
+  },
+  {
+    "text": "Launch a B2B2C loyalty coalition platform allowing retail partners to share reward currencies.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 125
+  },
+  {
+    "text": "Build a predictive churn model using customer behavioral data to enable proactive retention campaigns.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "Revenue",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 126
+  },
+  {
+    "text": "As part of the 2026 roadmap, build a guided product selection wizard to reduce customer decision friction and cart abandonment.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 127
+  },
+  {
+    "text": "Launch a cross-industry open standards consortium to reduce proprietary vendor lock-in across the sector.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Other",
+        "Cloud"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 128
+  },
+  {
+    "text": "Deploy a graph database to model complex relationships between customers, products, and partners for risk scoring.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "Finance"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 129
+  },
+  {
+    "text": "Build a data-driven pricing intelligence tool pulling competitor, demand, and margin signals into one view.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 130
+  },
+  {
+    "text": "Business priority: roll out a subscription billing platform to support usage-based pricing models for new SaaS lines Expected ROI within 18 months.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 131
+  },
+  {
+    "text": "We need to deploy a document intelligence system that extracts structured data from invoices, contracts, and forms at scale Expected ROI within 18 months.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 132
+  },
+  {
+    "text": "Build a scenario-based stress testing tool for the treasury team to model interest rate and FX shocks.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 133
+  },
+  {
+    "text": "Deploy a feature store to accelerate ML model development and avoid redundant pipeline work.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 134
+  },
+  {
+    "text": "Optimize inventory management to reduce overstock and stockouts, saving $2M per year.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Data"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 135
+  },
+  {
+    "text": "Field sales teams requested mobile access to pricing and inventory during client visits — high churn risk if ignored.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "real",
+    "id": 136
+  },
+  {
+    "text": "Implement a document retention and legal-hold management tool to reduce e-discovery costs.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Operations",
+        "Finance"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 137
+  },
+  {
+    "text": "Launch an open innovation program with startups to accelerate digital transformation.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 138
+  },
+  {
+    "text": "Introduce in-app onboarding tutorials to cut time-to-first-value for new SaaS users by half Target delivery within 12 months.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 139
+  },
+  {
+    "text": "We need to design an operating model for the digital business unit clarifying roles, funding, and governance.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Other"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 140
+  },
+  {
+    "text": "Implement continuous third-party (vendor) monitoring to reduce supply chain risk.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Operations",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 141
+  },
+  {
+    "text": "Implement a digital concierge app for hotel guests to replace paper-based room-service request processes.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 142
+  },
+  {
+    "text": "Implement a technology radar to track emerging tech and guide strategic adoption decisions each quarter.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other",
+        "AI"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 143
+  },
+  {
+    "text": "Deploy a data lakehouse architecture unifying structured and unstructured data for ML and BI workloads.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Cloud"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 144
+  },
+  {
+    "text": "We want to launch in the US market, but compliance, tax, and support localization extend timelines by 18 months.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Revenue",
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "edge",
+    "id": 145
+  },
+  {
+    "text": "The steering committee approved replace manual data entry across eight legacy forms with intelligent document processing and validation Expected ROI within 18 months.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 146
+  },
+  {
+    "text": "Implement self-service BI dashboards for department heads to eliminate 90% of ad-hoc data requests.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 147
+  },
+  {
+    "text": "Introduce an operational risk management solution compliant with Basel IV.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 148
+  },
+  {
+    "text": "Deploy an insider threat detection system using user and entity behavior analytics (UEBA).",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 149
+  },
+  {
+    "text": "We need to roll out a personalized e-learning platform for sales teams Requested by business stakeholders.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 150
+  },
+  {
+    "text": "Launch a digital skills academy to build internal AI and cloud capabilities and cut external hiring dependency.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Other",
+        "HR"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 151
+  },
+  {
+    "text": "Build vs buy for the ML platform: cloud vendor lock-in vs a 24-month in-house build — CFO can't decide Target delivery within 12 months.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Cloud"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 152
+  },
+  {
+    "text": "Implement synthetic data generation to enable model training and testing without exposing production PII.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 153
+  },
+  {
+    "text": "Create a developer ecosystem with SDKs and an API marketplace to attract third-party integrations Expected ROI within 18 months.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Cloud",
+        "Data"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 154
+  },
+  {
+    "text": "As part of the 2026 roadmap, encrypt sensitive customer data in transit and at rest to comply with ISO 27001.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 155
+  },
+  {
+    "text": "Standardize project delivery methodology across all units to improve predictability and reduce cost overruns.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Other",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 156
+  },
+  {
+    "text": "Implement a tax data management hub to streamline country-by-country reporting under Pillar Two.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 157
+  },
+  {
+    "text": "Implement centralized identity and access management (IAM) to reduce intrusion risk.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 158
+  },
+  {
+    "text": "Deploy an IoT data ingestion platform to collect sensor telemetry from 50,000 connected devices in real time.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 159
+  },
+  {
+    "text": "Build a unified semantic layer on top of the data warehouse so business users query the same definitions.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 160
+  },
+  {
+    "text": "As part of the 2026 roadmap, launch a B2B2C loyalty coalition platform allowing retail partners to share reward currencies Target delivery within 12 months.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 161
+  },
+  {
+    "text": "Automate the financial close process to reduce cycle time from 10 days to 3 business days.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 162
+  },
+  {
+    "text": "Implement streaming analytics on clickstream data to enable real-time personalization on the digital storefront.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 163
+  },
+  {
+    "text": "Deploy a hybrid cloud infrastructure to improve resilience and reduce datacenter dependency.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 164
+  },
+  {
+    "text": "Five regional master data registries are out of sync — a central MDM platform is blocking the CRM rollout Part of the digital transformation program.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Cloud"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 165
+  },
+  {
+    "text": "Automate sales proposal generation via generative AI to shorten the sales cycle.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Revenue"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 166
+  },
+  {
+    "text": "MLOps is missing: models trained in notebooks are deployed manually with no monitoring — shadow model risk is high.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "AI",
+        "Cloud"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 167
+  },
+  {
+    "text": "Automate IFRS 17 compliance reporting to cut actuarial team effort by 60%.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Data"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 168
+  },
+  {
+    "text": "Deploy sentiment analysis on support tickets to flag dissatisfied customers for proactive outreach.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "AI",
+        "Data"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 169
+  },
+  {
+    "text": "Implement in-app onboarding tutorials to cut time-to-first-value for new SaaS users by half.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 170
+  },
+  {
+    "text": "Business priority: new CFO wants simultaneous cost cuts and digital transformation — current planning cycle can't handle both priorities.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Revenue"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 171
+  },
+  {
+    "text": "Security ops is drowning in false-positive alerts — tune SIEM rules and add SOAR playbooks for tier-1 response.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "AI"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 172
+  },
+  {
+    "text": "Implement an AI-driven predictive maintenance model on HVAC and electrical assets to prevent failures.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 173
+  },
+  {
+    "text": "Implement a skills intelligence platform to map workforce capabilities against strategic talent demand Expected ROI within 18 months.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Data"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 174
+  },
+  {
+    "text": "Create a strategic partnership with a hyperscaler to access co-innovation funds and accelerate cloud adoption.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 175
+  },
+  {
+    "text": "Create an AI-powered regulatory change management service for banks, insurers, and asset managers.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 176
+  },
+  {
+    "text": "Clients can't see where their shipment is until it's delivered — real-time logistics visibility portal is a contract differentiator.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "Data"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "real",
+    "id": 177
+  },
+  {
+    "text": "Launch an AI-based credit scoring offering to address the underserved SMB market.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 178
+  },
+  {
+    "text": "Automate monthly account reconciliation with an RPA tool to eliminate manual errors and reduce the close cycle from 5 days to 1 day.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Finance"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 179
+  },
+  {
+    "text": "Deploy a voice analytics platform on call recordings to detect compliance breaches and coaching opportunities.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 180
+  },
+  {
+    "text": "Launch a post-merger IT integration playbook to cut integration time from 24 months to 12 months.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Other",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 181
+  },
+  {
+    "text": "Develop an innovation lab with time-boxed sprints to prototype and validate new digital business models.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other",
+        "AI"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 182
+  },
+  {
+    "text": "Insurance regulator asked for explainable AI on underwriting models — compliance deadline in 9 months Part of the digital transformation program.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 183
+  },
+  {
+    "text": "Phishing click rate is 18% in the last simulation — mandatory awareness program with targeted coaching.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "HR"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 184
+  },
+  {
+    "text": "Implement a cloud-native CNAPP to continuously assess workload security posture across multi-cloud.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Cloud"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 185
+  },
+  {
+    "text": "Build a returns portal with AI-driven resale and refurbishment routing to recover product value.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "Cost",
+        "Revenue"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 186
+  },
+  {
+    "text": "Standardize incident response playbooks and automate containment steps on critical security alerts.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Operations"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 187
+  },
+  {
+    "text": "Bring the information system into GDPR compliance before the Q2 regulatory audit.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 188
+  },
+  {
+    "text": "Automate threat intelligence ingestion and enrichment to reduce analyst triage time by 70%.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "AI"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 189
+  },
+  {
+    "text": "Build a capability maturity assessment framework to benchmark digital readiness across all business units.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 190
+  },
+  {
+    "text": "Establish a Center of Excellence for digital transformation governance and methodology standardization.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Other"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 191
+  },
+  {
+    "text": "Replatform the data warehouse to a cloud-native MPP engine to reduce query times by 10x.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Data"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 192
+  },
+  {
+    "text": "Establish a scenario-based stress testing tool for the treasury team to model interest rate and FX shocks.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 193
+  },
+  {
+    "text": "Embed a real-time delivery ETA widget in client portals to reduce inbound tracking calls by 50%.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 194
+  },
+  {
+    "text": "Build an AI model that predicts employee flight risk 90 days in advance using engagement and performance signals.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "HR"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 195
+  },
+  {
+    "text": "As part of the 2026 roadmap, create a white-label partner portal with branded dashboards for the reseller channel Expected ROI within 18 months.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Data"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 196
+  },
+  {
+    "text": "Implement mandatory cybersecurity training for all employees.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "HR"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 197
+  },
+  {
+    "text": "As part of the 2026 roadmap, establish a call volume forecasting model to optimize contact center staffing and reduce wait times.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 198
+  },
+  {
+    "text": "Five regional master data registries are out of sync — a central MDM platform is blocking the CRM rollout.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Cloud"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 199
+  },
+  {
+    "text": "Replace paper-based field inspection reports with a mobile digital capture and sync tool.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Cloud"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 200
+  },
+  {
+    "text": "Automate financial spreading and covenant monitoring for the corporate loan portfolio.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "AI"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 201
+  },
+  {
+    "text": "Establish a nearshore delivery center to reduce IT operating costs while maintaining quality and time-zone alignment.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Other",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 202
+  },
+  {
+    "text": "Build an MLOps platform to standardize model deployment, versioning, monitoring, and retraining workflows.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Cloud"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 203
+  },
+  {
+    "text": "Build a unified data warehouse to eliminate data silos and reduce duplicate reporting.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 204
+  },
+  {
+    "text": "Digitize expense reports with OCR and policy checks to cut reimbursement cycle from 14 to 3 days.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "AI"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 205
+  },
+  {
+    "text": "Build a call volume forecasting model to optimize contact center staffing and reduce wait times.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 206
+  },
+  {
+    "text": "Establish a cross-functional product board to prioritize the roadmap by business value rather than technical backlog.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 207
+  },
+  {
+    "text": "Automate workforce planning via a predictive model to anticipate hiring needs.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "HR",
+        "AI"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 208
+  },
+  {
+    "text": "As part of the 2026 roadmap, establish a generative AI co-pilot for financial analysts to automate variance commentary and board pack drafting.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 209
+  },
+  {
+    "text": "Modernize the mobile customer app to deliver a seamless experience and reduce bugs by 60%.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 210
+  },
+  {
+    "text": "We need to establish a sabbatical and flexible leave management module that integrates with payroll and project planning.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 211
+  },
+  {
+    "text": "We need to new CFO wants simultaneous cost cuts and digital transformation — current planning cycle can't handle both priorities.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Revenue"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 212
+  },
+  {
+    "text": "Implement an accounting anomaly detection tool to prevent internal fraud.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "AI"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 213
+  },
+  {
+    "text": "Implement a customer collaboration platform (extranet) to improve co-creation.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 214
+  },
+  {
+    "text": "Build a data lake to centralize sales, marketing, and operations data.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Cloud"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 215
+  },
+  {
+    "text": "The FP&A team cannot scenario-plan quickly enough for board meetings — need driver-based planning in the cloud Part of the digital transformation program.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 216
+  },
+  {
+    "text": "Launch an outsourcing strategy review to identify which IT services to insource, outsource, or nearshore.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Other",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 217
+  },
+  {
+    "text": "Create an internal data marketplace allowing teams to share and reuse certified datasets for analytics.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 218
+  },
+  {
+    "text": "The steering committee approved acquire a fintech API startup vs build in-house payment rails — strategy team wants decision support.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Other"
+      ],
+      "impact": [
+        "Revenue",
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 219
+  },
+  {
+    "text": "FinOps analysis showed 42% of cloud spend is waste — tagging enforcement, rightsizing, and reservation planning required Expected ROI within 18 months.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 220
+  },
+  {
+    "text": "Improve customer support accessibility via a multilingual chatbot available 24/7.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 221
+  },
+  {
+    "text": "Business priority: roll out an AI-powered pricing optimizer that adjusts margins dynamically based on demand and competitor signals Requested by business stakeholders.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 222
+  },
+  {
+    "text": "Skills gaps in cloud and cybersecurity roles are blocking project delivery — build an internal upskilling academy.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "real",
+    "id": 223
+  },
+  {
+    "text": "Deploy a demand forecasting model across 200,000 SKUs to reduce overstock by 30% and improve fill rates.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Revenue"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 224
+  },
+  {
+    "text": "Automate end-of-life product returns processing to cut reverse-logistics handling cost by 35%.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 225
+  },
+  {
+    "text": "The steering committee approved automate procurement approval workflows to cut purchase-order cycle time from 10 days to 2.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 226
+  },
+  {
+    "text": "Build a geospatial analytics capability to optimize store network, delivery routes, and territory planning.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 227
+  },
+  {
+    "text": "Migrate legacy mainframe batch workloads to cloud-native services to cut overnight processing costs in half.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 228
+  },
+  {
+    "text": "Implement bug bounty and responsible disclosure program to harden public APIs.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Cloud"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 229
+  },
+  {
+    "text": "Start a real-time treasury management API for embedded-finance integration with ERP vendors.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 230
+  },
+  {
+    "text": "Build a no-code workflow automation product for SMBs unable to afford custom software development.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 231
+  },
+  {
+    "text": "Offer employees a benefits portal with AI-guided choices during open enrollment.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 232
+  },
+  {
+    "text": "Managers spend 6+ hours per hire on scheduling interviews — TA lead wants automated screening and scheduling.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "HR",
+        "AI"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 233
+  },
+  {
+    "text": "Implement a formal technology debt register and quarterly paydown program to reduce systemic operational risk.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Other",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 234
+  },
+  {
+    "text": "Launch an AI credit insurance vertical to address high-potential emerging markets.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 235
+  },
+  {
+    "text": "The steering committee approved aI-driven threat hunting is reactive today — security team wants proactive hunt cycles using behavioral baselines Part of the digital transformation program.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "AI"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 236
+  },
+  {
+    "text": "Improve the employee experience with a unified, mobile-first HR self-service portal.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 237
+  },
+  {
+    "text": "Implement a continuous 360-degree feedback tool to improve employee engagement.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Data"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 238
+  },
+  {
+    "text": "We need to implement self-service BI dashboards for department heads to eliminate 90% of ad-hoc data requests.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 239
+  },
+  {
+    "text": "Build a managed security operations center offering for mid-market companies lacking in-house SecOps.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Cybersecurity",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 240
+  },
+  {
+    "text": "Business priority: deploy a cyber-resilience program including regular attack simulation exercises.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 241
+  },
+  {
+    "text": "Automate SOC 2 evidence collection to reduce audit preparation time from six weeks to five days.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Cloud"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 242
+  },
+  {
+    "text": "Introduce an accounting anomaly detection tool to prevent internal fraud.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "AI"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 243
+  },
+  {
+    "text": "As part of the 2026 roadmap, introduce a recommendation engine that personalizes the product catalog for each B2B buyer segment Part of the digital transformation program.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Data"
+      ],
+      "impact": [
+        "Revenue",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 244
+  },
+  {
+    "text": "Modernize the payroll system to ensure legal compliance and reduce processing errors.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "HR",
+        "Finance"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 245
+  },
+  {
+    "text": "Deploy a reinforcement learning agent for dynamic inventory replenishment to optimize working capital.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 246
+  },
+  {
+    "text": "Start a digital-first insurance product for gig-economy workers — currently an underserved segment.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 247
+  },
+  {
+    "text": "Implement an IT governance framework to align technology spending with strategic business outcomes.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Other",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 248
+  },
+  {
+    "text": "As part of the 2026 roadmap, build an AI model that predicts employee flight risk 90 days in advance using engagement and performance signals.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "HR"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 249
+  },
+  {
+    "text": "Manufacturing OEE stalled at 68% — integrate machine telemetry with MES for downtime root-cause analysis.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Data"
+      ],
+      "impact": [
+        "Cost",
+        "Revenue"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 250
+  },
+  {
+    "text": "Build a cloud sandbox environment for developers to experiment safely without production access or data risk.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cloud",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 251
+  },
+  {
+    "text": "We need to roll out real-time transaction monitoring for AML compliance across all payment channels Target delivery within 12 months.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "AI"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 252
+  },
+  {
+    "text": "As part of the 2026 roadmap, implement an invoice processing automation tool to reduce manual handling by 70%.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 253
+  },
+  {
+    "text": "Implement a supply chain disruption early-warning system with multi-tier supplier risk mapping.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Operations",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 254
+  },
+  {
+    "text": "Implement a digital quality gate in manufacturing to catch defects before final assembly packaging.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 255
+  },
+  {
+    "text": "Launch a multimodal AI pipeline combining OCR, NLP, and classification for high-volume document intake.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Data"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 256
+  },
+  {
+    "text": "Introduce a digital loyalty program to improve customer retention by 15%.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 257
+  },
+  {
+    "text": "Deploy a cloud-native observability stack with distributed tracing to cut mean-time-to-resolution by 60%.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 258
+  },
+  {
+    "text": "Develop a carbon accounting and offset marketplace for enterprise sustainability buyers.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 259
+  },
+  {
+    "text": "Implement a cloud identity and access management overhaul to enforce least-privilege across 3,000 resources.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cloud",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 260
+  },
+  {
+    "text": "Marketing wants a CDP to unify web, CRM, and POS data for campaigns — IT concerned about consent management.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue",
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "real",
+    "id": 261
+  },
+  {
+    "text": "Implement infrastructure-as-code with policy guardrails to prevent misconfiguration in cloud environments.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cloud",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 262
+  },
+  {
+    "text": "Build a centralized innovation pipeline from idea submission to board approval with transparent scoring.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 263
+  },
+  {
+    "text": "Treasury still reconciles bank feeds manually in Excel — CFO wants straight-through processing by year-end.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Data"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 264
+  },
+  {
+    "text": "Deploy a quality management system (QMS) to reduce product non-conformities by 30%.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Operations",
+        "Data"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 265
+  },
+  {
+    "text": "Automate monthly account reconciliation with an RPA tool to eliminate manual errors and reduce the close cycle from 5 days to 1 day Expected ROI within 18 months.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Finance"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 266
+  },
+  {
+    "text": "Start a visual product configurator so B2B buyers can self-design and price complex orders.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 267
+  },
+  {
+    "text": "Build a cloud cost governance dashboard with per-team showback and automated anomaly alerts.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 268
+  },
+  {
+    "text": "Business priority: audit found duplicate vendor payments totaling €400K — we need automated three-way matching on invoices.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 269
+  },
+  {
+    "text": "We missed SOX control deadlines twice because journal entries lack automated approval trails.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 270
+  },
+  {
+    "text": "Clients demand better data privacy controls, but sales argues the added friction will hurt conversion rates.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Data"
+      ],
+      "impact": [
+        "Risk",
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "edge",
+    "id": 271
+  },
+  {
+    "text": "Roll out a vendor contract management tool to reduce legal risk and optimize costs Expected ROI within 18 months.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Finance"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 272
+  },
+  {
+    "text": "Establish a guided product selection wizard to reduce customer decision friction and cart abandonment Target delivery within 12 months.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 273
+  },
+  {
+    "text": "Implement an invoice processing automation tool to reduce manual handling by 70%.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 274
+  },
+  {
+    "text": "Business priority: establish a knowledge management platform to capture institutional expertise before critical retirements.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Other",
+        "HR"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 275
+  },
+  {
+    "text": "Build a sabbatical and flexible leave management module that integrates with payroll and project planning.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 276
+  },
+  {
+    "text": "Three enterprise accounts asked for SSO integration with their identity provider before renewing contracts.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cybersecurity",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Risk"
+      ],
+      "origin": "client_request"
+    },
+    "source": "real",
+    "id": 277
+  },
+  {
+    "text": "Deploy a conversational AI assistant on the customer portal to reduce response time from 48 hours to 2 hours.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 278
+  },
+  {
+    "text": "Automate ESG data collection and consolidation for regulatory reporting.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 279
+  },
+  {
+    "text": "Implement blue-green deployment with automated rollback to eliminate planned maintenance windows.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Risk"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 280
+  },
+  {
+    "text": "Replace shared admin passwords on critical databases with vault-managed rotating credentials.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 281
+  },
+  {
+    "text": "Segment the OT network from corporate IT to reduce exposure of production systems to ransomware.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Operations"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 282
+  },
+  {
+    "text": "HR analytics shows voluntary attrition in engineering is 28% — need predictive models to flag flight risks early.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "HR",
+        "Data"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 283
+  },
+  {
+    "text": "Roll out endpoint detection and response (EDR) across all laptops and servers within two quarters.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 284
+  },
+  {
+    "text": "Launch AI-driven dynamic pricing — revenue management teams love it, but key accounts are threatening churn.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Revenue",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "edge",
+    "id": 285
+  },
+  {
+    "text": "Key account threatened churn unless we add bulk CSV export to their procurement integration.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "Data"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 286
+  },
+  {
+    "text": "Consolidate three regional data centers into a single cloud provider to reduce OpEx by 35%.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 287
+  },
+  {
+    "text": "Set up automation for threat intelligence ingestion and enrichment to reduce analyst triage time by 70%.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "AI"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 288
+  },
+  {
+    "text": "Working capital is strained: collections take 62 days on average — deploy dunning automation and cash forecasting.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "AI"
+      ],
+      "impact": [
+        "Cost",
+        "Revenue"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 289
+  },
+  {
+    "text": "Achieve PCI-DSS certification for the payments platform before the holiday sales peak.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Finance"
+      ],
+      "impact": [
+        "Risk",
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 290
+  },
+  {
+    "text": "Deploy serverless functions to replace always-on batch VMs and cut compute costs for intermittent workloads.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 291
+  },
+  {
+    "text": "Implement a data quality scorecard published weekly to data owners with automated alerting on degradation.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 292
+  },
+  {
+    "text": "Build vs buy for the ML platform: cloud vendor lock-in vs a 24-month in-house build — CFO can't decide.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Cloud"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "edge",
+    "id": 293
+  },
+  {
+    "text": "As part of the 2026 roadmap, clients demand better data privacy controls, but sales argues the added friction will hurt conversion rates Part of the digital transformation program.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Data"
+      ],
+      "impact": [
+        "Risk",
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 294
+  },
+  {
+    "text": "Implement a unified project management platform to improve cross-team collaboration.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Cloud"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 295
+  },
+  {
+    "text": "Deploy a global CDN and edge computing layer to reduce API latency for international users below 100ms.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 296
+  },
+  {
+    "text": "Data science team rebuilds feature pipelines from scratch each project — a shared feature store would cut model time-to-prod by half.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Data"
+      ],
+      "impact": [
+        "Cost",
+        "Revenue"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 297
+  },
+  {
+    "text": "Enhance the employee experience with a unified, mobile-first HR self-service portal.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 298
+  },
+  {
+    "text": "Implement an enterprise-wide OKR framework to cascade strategic goals to team-level execution metrics.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 299
+  },
+  {
+    "text": "Implement a generative AI system for customer service that drafts empathetic responses in brand voice.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 300
+  },
+  {
+    "text": "Build a generative AI co-pilot for financial analysts to automate variance commentary and board pack drafting.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 301
+  },
+  {
+    "text": "Build a guided product selection wizard to reduce customer decision friction and cart abandonment.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 302
+  },
+  {
+    "text": "Implement a patient outcome analytics platform to identify treatment patterns that reduce readmission rates.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "Revenue",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 303
+  },
+  {
+    "text": "Implement GDPR-compliant data subject request automation to handle deletion, portability, and access queries.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 304
+  },
+  {
+    "text": "Build a smart-building energy management platform targeting commercial real estate operators.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 305
+  },
+  {
+    "text": "Introduce robotic invoice matching linked to ERP to eliminate manual AP clerk rework.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 306
+  },
+  {
+    "text": "Build a multi-touch attribution model across digital channels to optimize marketing budget allocation.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 307
+  },
+  {
+    "text": "Union negotiations require transparent shift-swap and overtime tracking — current spreadsheets are error-prone.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "HR",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "real",
+    "id": 308
+  },
+  {
+    "text": "Build a real-time executive dashboard to improve strategic decision-making.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 309
+  },
+  {
+    "text": "Automate open-source license compliance tracking for all software dependencies in production.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 310
+  },
+  {
+    "text": "Create an API-first integration layer to enable partner ecosystem connectivity and third-party extensibility.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 311
+  },
+  {
+    "text": "Insurance regulator asked for explainable AI on underwriting models — compliance deadline in 9 months.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "edge",
+    "id": 312
+  },
+  {
+    "text": "Business priority: implement data governance policies with ownership, stewardship, and quality SLAs for all critical data domains.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 313
+  },
+  {
+    "text": "Redesign the online subscription journey to reduce abandonment rate from 45% to below 20%.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 314
+  },
+  {
+    "text": "Set up automation for contractor onboarding and off-boarding to reduce compliance gaps and access over-provisioning.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "HR",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 315
+  },
+  {
+    "text": "Launch an embedded analytics module within the platform to upsell to the enterprise tier.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Data"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 316
+  },
+  {
+    "text": "As part of the 2026 roadmap, introduce bug bounty and responsible disclosure program to harden public APIs.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Cloud"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 317
+  },
+  {
+    "text": "Deploy a configure-price-quote tool to cut B2B sales proposal turnaround from 5 days to same-day.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 318
+  },
+  {
+    "text": "Implement a cloud-native CI/CD pipeline to reduce deployment lead time from 2 weeks to same-day.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 319
+  },
+  {
+    "text": "Build a citizen-facing complaint-tracking portal to improve transparency and trust in government services.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 320
+  },
+  {
+    "text": "Migrate on-premise servers to the cloud to cut infrastructure costs by 40%.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 321
+  },
+  {
+    "text": "Establish a reverse mentoring program pairing executives with digital-native staff to accelerate culture shift.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Other",
+        "HR"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 322
+  },
+  {
+    "text": "Create a leadership development track with personalized learning paths for high potentials.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 323
+  },
+  {
+    "text": "Build a real-time executive dashboard to improve strategic decision-making Target delivery within 12 months.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 324
+  },
+  {
+    "text": "Implement AI-assisted code review to detect security vulnerabilities before they reach production.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "AI",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 325
+  },
+  {
+    "text": "Build a strategic vendor management office to consolidate supplier relationships and improve SLA accountability.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Other",
+        "Finance"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 326
+  },
+  {
+    "text": "Deploy a vendor contract management tool to reduce legal risk and optimize costs.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Finance"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 327
+  },
+  {
+    "text": "Pen test report showed critical RCE on the legacy VPN appliance — replace with zero-trust network access.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Cloud"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 328
+  },
+  {
+    "text": "Board mandate: all privileged admin sessions must be recorded and reviewed — PAM tooling not in place today.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "real",
+    "id": 329
+  },
+  {
+    "text": "Automate monthly financial report generation via a data pipeline to eliminate 20 hours of manual work.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Data"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 330
+  },
+  {
+    "text": "ESG investors want quarterly scope-3 emissions data, but our suppliers resist sharing operational figures.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Operations",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "edge",
+    "id": 331
+  },
+  {
+    "text": "Deploy real-time transaction monitoring for AML compliance across all payment channels.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "AI"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 332
+  },
+  {
+    "text": "Implement a recommendation engine that personalizes the product catalog for each B2B buyer segment.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Data"
+      ],
+      "impact": [
+        "Revenue",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 333
+  },
+  {
+    "text": "The steering committee approved implement a unified project management platform to improve cross-team collaboration Target delivery within 12 months.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Cloud"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 334
+  },
+  {
+    "text": "Deploy a data observability platform to monitor pipeline health and catch quality issues before downstream use.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 335
+  },
+  {
+    "text": "Automate KYC/AML compliance checks to reduce regulatory risk and onboarding delays Target delivery within 12 months.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "AI"
+      ],
+      "impact": [
+        "Risk",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 336
+  },
+  {
+    "text": "FinOps analysis showed 42% of cloud spend is waste — tagging enforcement, rightsizing, and reservation planning required.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 337
+  },
+  {
+    "text": "Build an NLP pipeline to classify and route 50,000 inbound customer emails per day without human triage.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 338
+  },
+  {
+    "text": "Automate VAT and e-invoicing compliance for EU subsidiaries under the new mandate.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 339
+  },
+  {
+    "text": "As part of the 2026 roadmap, create an API-first integration layer to enable partner ecosystem connectivity and third-party extensibility.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 340
+  },
+  {
+    "text": "The steering committee approved introduce a document retention and legal-hold management tool to reduce e-discovery costs.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Operations",
+        "Finance"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 341
+  },
+  {
+    "text": "Build a real-time payment reconciliation engine to close the daily ledger within 2 hours of cut-off.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Data"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 342
+  },
+  {
+    "text": "Deploy an AI tutor for personalized employee learning paths that adapts content based on quiz performance Target delivery within 12 months.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "AI",
+        "HR"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 343
+  },
+  {
+    "text": "The FP&A team cannot scenario-plan quickly enough for board meetings — need driver-based planning in the cloud.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "real",
+    "id": 344
+  },
+  {
+    "text": "Implement a generative AI copilot for knowledge workers to cut report drafting time by 60%.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 345
+  },
+  {
+    "text": "Automate workday scheduling for shift workers with fairness rules and legal break compliance.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "HR",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 346
+  },
+  {
+    "text": "Migrate legacy batch ETL jobs to a cloud-native streaming pipeline to eliminate overnight processing windows.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Data"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 347
+  },
+  {
+    "text": "New CFO wants simultaneous cost cuts and digital transformation — current planning cycle can't handle both priorities.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Revenue"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "edge",
+    "id": 348
+  },
+  {
+    "text": "Modernize the IVR system with conversational AI to reduce call misrouting by 40%.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 349
+  },
+  {
+    "text": "We need to deploy a personalized e-learning platform for sales teams Part of the digital transformation program.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 350
+  },
+  {
+    "text": "Introduce an invoice processing automation tool to reduce manual handling by 70% Requested by business stakeholders.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 351
+  },
+  {
+    "text": "Deploy a master data management solution to harmonize customer and product records across 12 source systems.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 352
+  },
+  {
+    "text": "Deploy a personalized e-learning platform for sales teams.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 353
+  },
+  {
+    "text": "Build an AI-assisted legal research tool that summarizes case law and identifies relevant precedents instantly.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 354
+  },
+  {
+    "text": "Implement a real-time anomaly detection model on network traffic to identify zero-day threats within seconds.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "AI",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 355
+  },
+  {
+    "text": "Launch proactive maintenance notifications via SMS and app to reduce service-call escalations by 30%.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 356
+  },
+  {
+    "text": "Implement a field service management platform to optimize technician dispatch and first-fix rate.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 357
+  },
+  {
+    "text": "Migrate all clients to the new platform version, but 20% are on contractually guaranteed legacy support.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Risk"
+      ],
+      "origin": "client_request"
+    },
+    "source": "edge",
+    "id": 358
+  },
+  {
+    "text": "Create a structured hypercare model for post-go-live stabilization to reduce production incidents after deployments.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Other",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 359
+  },
+  {
+    "text": "Automate KYC/AML compliance checks to reduce regulatory risk and onboarding delays.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "AI"
+      ],
+      "impact": [
+        "Risk",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 360
+  },
+  {
+    "text": "Two public-sector clients require accessibility compliance (WCAG 2.1) on all citizen-facing forms by next audit.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Risk"
+      ],
+      "origin": "client_request"
+    },
+    "source": "real",
+    "id": 361
+  },
+  {
+    "text": "Launch a digital skills academy to build internal AI and cloud capabilities and cut external hiring dependency Part of the digital transformation program.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Other",
+        "HR"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 362
+  },
+  {
+    "text": "We need to establish a FinTech partnerships program to extend the core product with best-of-breed third-party capabilities.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other",
+        "Finance"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 363
+  },
+  {
+    "text": "Start a formal enterprise architecture board to govern technology standards and reduce duplication.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Other",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 364
+  },
+  {
+    "text": "Establish a red-team-as-a-service program with quarterly adversary simulation exercises.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 365
+  },
+  {
+    "text": "Implement automated backup verification to confirm recovery-point objectives are actually met.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cloud",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 366
+  },
+  {
+    "text": "Deploy a generative AI assistant that helps procurement teams draft supplier negotiation briefs and clauses.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 367
+  },
+  {
+    "text": "We need to implement an accounting anomaly detection tool to prevent internal fraud.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "AI"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 368
+  },
+  {
+    "text": "Reduce FX hedging errors by integrating trading platform with the general ledger in real time.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 369
+  },
+  {
+    "text": "Reduce datacenter energy consumption through cloud optimization and AI-driven scheduling algorithms.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "AI"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 370
+  },
+  {
+    "text": "Transfer pricing documentation for 22 jurisdictions is assembled manually each year — automate before the OECD Pillar Two audit.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "real",
+    "id": 371
+  },
+  {
+    "text": "Deploy an LLM-based contract extraction tool to automate clause-level review and risk flagging.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 372
+  },
+  {
+    "text": "Replace an aging field sales force with inside sales augmented by AI — significant culture-change risk involved.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "HR"
+      ],
+      "impact": [
+        "Cost",
+        "Revenue"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "edge",
+    "id": 373
+  },
+  {
+    "text": "Reduce cold-storage energy use by 22% with IoT sensors and ML-driven cooling schedules.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 374
+  },
+  {
+    "text": "Deploy pulse surveys with sentiment analysis to detect burnout in high-turnover teams Target delivery within 12 months.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Risk"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 375
+  },
+  {
+    "text": "Build an ecosystem partnership program with technology alliances to accelerate co-sell revenue.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 376
+  },
+  {
+    "text": "Deploy a data quality tool to reduce data errors costing $500K per year in manual rework.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 377
+  },
+  {
+    "text": "Implement a digital loyalty program to improve customer retention by 15%.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 378
+  },
+  {
+    "text": "Implement an automated competitive intelligence tool to track market changes in real time.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Data"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 379
+  },
+  {
+    "text": "Establish a data-driven board reporting cadence replacing manual slide decks with live executive dashboards.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Other",
+        "Data"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 380
+  },
+  {
+    "text": "Roll out deception technology (honeypots, honeytokens) to detect lateral movement inside the network early.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 381
+  },
+  {
+    "text": "Create a client health-score dashboard for account managers to identify and prioritize at-risk accounts.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 382
+  },
+  {
+    "text": "Build a FinTech partnerships program to extend the core product with best-of-breed third-party capabilities.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other",
+        "Finance"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 383
+  },
+  {
+    "text": "Business priority: build a geospatial analytics capability to optimize store network, delivery routes, and territory planning.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 384
+  },
+  {
+    "text": "Develop an open API to let partners integrate our services and generate new revenue.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Cloud",
+        "Data"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 385
+  },
+  {
+    "text": "Business priority: achieve PCI-DSS certification for the payments platform before the holiday sales peak Part of the digital transformation program.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Finance"
+      ],
+      "impact": [
+        "Risk",
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 386
+  },
+  {
+    "text": "Deploy a privacy-enhancing computation layer for cross-entity analytics without sharing raw data.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 387
+  },
+  {
+    "text": "Business priority: introduce a generative AI system for customer service that drafts empathetic responses in brand voice.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 388
+  },
+  {
+    "text": "Develop a SaaS cash management product for mid-market companies, a poorly digitized segment.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 389
+  },
+  {
+    "text": "Bring the information system into GDPR compliance before the Q2 regulatory audit Requested by business stakeholders.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 390
+  },
+  {
+    "text": "Client contract mandates 99.95% uptime and sub-4h incident comms — current ops model cannot guarantee it.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Operations",
+        "Cloud"
+      ],
+      "impact": [
+        "Risk",
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "edge",
+    "id": 391
+  },
+  {
+    "text": "Deploy RPA on supplier purchase order processing to reduce delays and data entry errors.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 392
+  },
+  {
+    "text": "Implement a database-as-a-service model to replace self-managed databases and reduce DBA operational burden.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 393
+  },
+  {
+    "text": "Deploy agent-assist AI in the contact center to surface relevant knowledge articles in real time.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 394
+  },
+  {
+    "text": "Launch a diversity and inclusion analytics dashboard to surface pay equity and representation gaps.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "HR",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 395
+  },
+  {
+    "text": "Graduate intake doubled but onboarding materials are outdated — employees rated onboarding 2.1/5 in the last survey.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "real",
+    "id": 396
+  },
+  {
+    "text": "Develop a cold-chain supply chain visibility SaaS product for the food and beverage segment.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Operations",
+        "Data"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 397
+  },
+  {
+    "text": "Deploy an AI assistant for sales teams to accelerate lead qualification.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 398
+  },
+  {
+    "text": "DORA comes into force next year — we have no unified view of ICT third-party risk across business units.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Finance"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "real",
+    "id": 399
+  },
+  {
+    "text": "Deploy a computer vision system on the production line to detect surface defects at 99.5% accuracy.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 400
+  },
+  {
+    "text": "Start a vertical SaaS offering tailored for healthcare compliance and accreditation management.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Cloud",
+        "Finance"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 401
+  },
+  {
+    "text": "Reduce cloud spend by 20% without slowing product releases — FinOps tooling and architecture review.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "edge",
+    "id": 402
+  },
+  {
+    "text": "Deploy an operational data store providing sub-second query access for call center and branch staff.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 403
+  },
+  {
+    "text": "Consolidate redundant SaaS tools to reduce licensing costs by 30% and simplify the user experience.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 404
+  },
+  {
+    "text": "Deploy a generative design tool for engineers to generate optimized component geometries and reduce material use.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 405
+  },
+  {
+    "text": "The steering committee approved standardize incident response playbooks and automate containment steps on critical security alerts.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Operations"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 406
+  },
+  {
+    "text": "We need to build an AI-assisted legal research tool that summarizes case law and identifies relevant precedents instantly.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 407
+  },
+  {
+    "text": "Build a platform engineering team with golden paths and internal developer portals to reduce onboarding time.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 408
+  },
+  {
+    "text": "We need to set up automation for monthly financial report generation via a data pipeline to eliminate 20 hours of manual work.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Data"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 409
+  },
+  {
+    "text": "Implement AI-driven logistics route optimization to reduce last-mile delivery costs by 20%.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 410
+  },
+  {
+    "text": "Replace legacy ERP modules gradually vs big-bang — finance and supply chain disagree on sequencing Requested by business stakeholders.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 411
+  },
+  {
+    "text": "We need to digitize the new hire onboarding journey to reduce time-to-productivity from 3 months to 6 weeks.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 412
+  },
+  {
+    "text": "Launch an e-commerce vertical to capture 10% of the regional market within 18 months.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Operations",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 413
+  },
+  {
+    "text": "Create a data literacy training program to raise analytical skills across 2,000 non-technical employees.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Data",
+        "HR"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 414
+  },
+  {
+    "text": "Build a liquidity dashboard pulling from all bank APIs for daily treasury decisions.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "Data"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 415
+  },
+  {
+    "text": "Standardize legal contract templates and a shared clause library to cut external legal spend by 40%.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Finance"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 416
+  },
+  {
+    "text": "As part of the 2026 roadmap, automate procurement approval workflows to cut purchase-order cycle time from 10 days to 2.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 417
+  },
+  {
+    "text": "Wholesale buyers asked for configurable catalog views per region — blocking renewal of master agreement Requested by business stakeholders.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 418
+  },
+  {
+    "text": "Launch an internal talent marketplace so employees can apply to short-term project gigs.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 419
+  },
+  {
+    "text": "Business priority: deploy a dark data discovery tool to identify and classify unstructured content with sensitive information.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 420
+  },
+  {
+    "text": "Roll out an AI tutor for personalized employee learning paths that adapts content based on quiz performance.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "AI",
+        "HR"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 421
+  },
+  {
+    "text": "Implement an e-signature solution to digitize 100% of customer contracts.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 422
+  },
+  {
+    "text": "Business priority: dORA comes into force next year — we have no unified view of ICT third-party risk across business units.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Finance"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 423
+  },
+  {
+    "text": "Build vs buy for the ML platform: cloud vendor lock-in vs a 24-month in-house build — CFO can't decide Requested by business stakeholders.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Cloud"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 424
+  },
+  {
+    "text": "Automate regulatory data submissions by building validated pipelines from source systems to regulator APIs.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "Finance"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 425
+  },
+  {
+    "text": "Warehouse pick accuracy dropped to 94% after SKU catalog growth — voice-picking or AR guidance pilot needed.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 426
+  },
+  {
+    "text": "Introduce an IT governance framework to align technology spending with strategic business outcomes Requested by business stakeholders.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Other",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 427
+  },
+  {
+    "text": "Introduce a portfolio investment scoring model to rank strategic initiatives by NPV and strategic fit.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other",
+        "Data"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 428
+  },
+  {
+    "text": "Deploy an AI tutor for personalized employee learning paths that adapts content based on quiz performance.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "AI",
+        "HR"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 429
+  },
+  {
+    "text": "Roll out a graph database to model complex relationships between customers, products, and partners for risk scoring.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "Finance"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 430
+  },
+  {
+    "text": "We need to union negotiations require transparent shift-swap and overtime tracking — current spreadsheets are error-prone.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "HR",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 431
+  },
+  {
+    "text": "Deploy an AI-based talent management system to reduce turnover by 25%.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 432
+  },
+  {
+    "text": "Establish a third-party risk-scoring platform integrating external threat intelligence feeds.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity",
+        "Operations"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 433
+  },
+  {
+    "text": "Build a credit underwriting model using alternative data signals to expand lending to thin-file customers.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 434
+  },
+  {
+    "text": "The steering committee approved build a scenario-based stress testing tool for the treasury team to model interest rate and FX shocks.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 435
+  },
+  {
+    "text": "Intercompany billing across 14 entities takes 12 days each close — finance wants a single consolidation hub.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Finance",
+        "Data"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "real",
+    "id": 436
+  },
+  {
+    "text": "As part of the 2026 roadmap, deploy a real-time fraud scoring service on the payments ledger using behavioral and velocity features Requested by business stakeholders.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 437
+  },
+  {
+    "text": "Migrate the monolithic e-commerce application to microservices on Kubernetes for independent scaling.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 438
+  },
+  {
+    "text": "Launch a cybersecurity consulting offering for SMBs, an underserved market segment.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Cybersecurity",
+        "Other"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 439
+  },
+  {
+    "text": "Automate contractor onboarding and off-boarding to reduce compliance gaps and access over-provisioning.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "HR",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 440
+  },
+  {
+    "text": "Deploy a transport management system to optimize carrier selection and reduce freight spend by 18%.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Data"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 441
+  },
+  {
+    "text": "Implement a skills intelligence platform to map workforce capabilities against strategic talent demand.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Data"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 442
+  },
+  {
+    "text": "Roll out a regulatory compliance management tool to avoid penalties exceeding $5M Target delivery within 12 months.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 443
+  },
+  {
+    "text": "Integrate payroll with time tracking to eliminate duplicate data entry for hourly staff.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "HR",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 444
+  },
+  {
+    "text": "NPS is up but support costs doubled — automate tier-1 without hurting the premium brand experience.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "edge",
+    "id": 445
+  },
+  {
+    "text": "Implement a portfolio investment scoring model to rank strategic initiatives by NPV and strategic fit.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Other",
+        "Data"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 446
+  },
+  {
+    "text": "Roll out an industrial predictive maintenance solution to enter the Industry 4.0 market.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 447
+  },
+  {
+    "text": "Build a real-time in-store inventory visibility tool for retail associates to answer stock queries instantly.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "Data"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 448
+  },
+  {
+    "text": "Create an internal innovation lab to rapidly prototype new digital offerings.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 449
+  },
+  {
+    "text": "Develop a cross-sell recommendation engine to increase average order value by 20%.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Data"
+      ],
+      "impact": [
+        "Revenue",
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 450
+  },
+  {
+    "text": "Business priority: cloud security posture review found 140 misconfigured S3 buckets — CSPM tooling needed before next board audit.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cloud",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 451
+  },
+  {
+    "text": "Deploy a track-and-trace solution to give full cold-chain visibility from supplier to store shelf.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Operations",
+        "Data"
+      ],
+      "impact": [
+        "Risk",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 452
+  },
+  {
+    "text": "Hotel chain client needs multi-property reporting in one login — deal size €2M annually.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Data",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 453
+  },
+  {
+    "text": "Implement an AI governance framework with model cards, risk tiers, and a mandatory human review gate.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "AI",
+        "Other"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 454
+  },
+  {
+    "text": "Launch a vertical SaaS offering tailored for healthcare compliance and accreditation management.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Cloud",
+        "Finance"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 455
+  },
+  {
+    "text": "Deploy a large language model assistant for internal knowledge search across policies, contracts, and wikis.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 456
+  },
+  {
+    "text": "Implement a carbon emissions reduction program with automated ESG reporting.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Operations",
+        "Data"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 457
+  },
+  {
+    "text": "Build a real-time customer 360 view ingesting CRM, web, mobile, and support data for personalized engagement.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 458
+  },
+  {
+    "text": "Deploy AI-powered demand sensing to reduce safety stock by 25% without increasing stockout frequency.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 459
+  },
+  {
+    "text": "Launch a real-time treasury management API for embedded-finance integration with ERP vendors.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 460
+  },
+  {
+    "text": "Credit risk models are five years old and built on pre-pandemic data — re-training needed before the Basel IV deadline.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "AI"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "real",
+    "id": 461
+  },
+  {
+    "text": "Launch a real-time order tracking portal to improve transparency and reduce support calls.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 462
+  },
+  {
+    "text": "Deploy a project portfolio management tool to give leadership real-time visibility into delivery health.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Other",
+        "Data"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 463
+  },
+  {
+    "text": "Build a multimodal AI system that classifies product images and descriptions for automated catalog enrichment.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 464
+  },
+  {
+    "text": "Deploy dynamic pricing based on demand and competitive data.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Data"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 465
+  },
+  {
+    "text": "As part of the 2026 roadmap, automate end-of-life product returns processing to cut reverse-logistics handling cost by 35%.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "Finance"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 466
+  },
+  {
+    "text": "Launch a customer data platform to unify identities across web, mobile, and CRM for personalized marketing.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "AI"
+      ],
+      "impact": [
+        "Revenue",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 467
+  },
+  {
+    "text": "Roll out an IoT data ingestion platform to collect sensor telemetry from 50,000 connected devices in real time Requested by business stakeholders.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 468
+  },
+  {
+    "text": "Establish a sabbatical and flexible leave management module that integrates with payroll and project planning Expected ROI within 18 months.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 469
+  },
+  {
+    "text": "A major hospital client asked for HL7/FHIR interoperability to sync patient billing with their EHR.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "Data"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "real",
+    "id": 470
+  },
+  {
+    "text": "Implement a next-best-action engine in the CRM to guide sales reps toward the highest-conversion opportunities.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 471
+  },
+  {
+    "text": "Business priority: introduce real-time NPS with semantic analysis of customer verbatims using NLP Expected ROI within 18 months.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "AI",
+        "Data"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 472
+  },
+  {
+    "text": "Build a real-time event streaming platform to replace nightly batch ETL and reduce reporting lag.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Cloud"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 473
+  },
+  {
+    "text": "Automate operational data ETL to reduce reporting lag from D+5 to D+1.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 474
+  },
+  {
+    "text": "Build a unified events platform to replace point-to-point integrations with a central publish-subscribe bus.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Cloud"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 475
+  },
+  {
+    "text": "Implement data mesh architecture to decentralize ownership and enforce domain-level data SLAs.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 476
+  },
+  {
+    "text": "Deploy pulse surveys with sentiment analysis to detect burnout in high-turnover teams.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "AI"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Risk"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 477
+  },
+  {
+    "text": "Deploy an HR chatbot to reduce tier-1 HR ticket volume and free up staff capacity.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "HR",
+        "AI"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 478
+  },
+  {
+    "text": "Implement a data catalog with automated lineage to make data assets discoverable across all departments.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Cost",
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 479
+  },
+  {
+    "text": "Establish a sabbatical and flexible leave management module that integrates with payroll and project planning Requested by business stakeholders.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "HR",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 480
+  },
+  {
+    "text": "Create a formal change management practice to reduce adoption failure rates on large transformation programs.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Other",
+        "HR"
+      ],
+      "impact": [
+        "Risk",
+        "CustomerExperience"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 481
+  },
+  {
+    "text": "Municipality RFP requires citizen appointment booking online — current phone-only process fails the spec.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Operations",
+        "Cloud"
+      ],
+      "impact": [
+        "CustomerExperience"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 482
+  },
+  {
+    "text": "The steering committee approved roll out a global CDN and edge computing layer to reduce API latency for international users below 100ms.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "paraphrase",
+    "id": 483
+  },
+  {
+    "text": "Establish a data product mindset with SLAs, versioning, and consumer feedback loops for internal datasets.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Data",
+        "Operations"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 484
+  },
+  {
+    "text": "Launch a customer community platform to reduce support load and increase product adoption scores.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Cost"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 485
+  },
+  {
+    "text": "As part of the 2026 roadmap, roll out endpoint detection and response (EDR) across all laptops and servers within two quarters.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "paraphrase",
+    "id": 486
+  },
+  {
+    "text": "Deploy a dark data discovery tool to identify and classify unstructured content with sensitive information.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Data",
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 487
+  },
+  {
+    "text": "Digital twin of the main plant would let engineers test production scenarios without halting the line.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "Revenue",
+        "Cost"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "real",
+    "id": 488
+  },
+  {
+    "text": "Conduct an annual security audit and penetration test to identify critical vulnerabilities.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 489
+  },
+  {
+    "text": "Implement a SIEM to detect intrusions in real time and reduce MTTD to under 1 hour.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Cybersecurity"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 490
+  },
+  {
+    "text": "Automate fraud detection on financial transactions using a real-time ML model.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "AI",
+        "Finance"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 491
+  },
+  {
+    "text": "As part of the 2026 roadmap, set up automation for financial spreading and covenant monitoring for the corporate loan portfolio Requested by business stakeholders.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Finance",
+        "AI"
+      ],
+      "impact": [
+        "Risk",
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "paraphrase",
+    "id": 492
+  },
+  {
+    "text": "Build a clinical decision support model that flags drug interactions and dosing anomalies at prescribing time.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "AI",
+        "Operations"
+      ],
+      "impact": [
+        "Risk",
+        "CustomerExperience"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 493
+  },
+  {
+    "text": "Deploy a subscription billing platform to support usage-based pricing models for new SaaS lines.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 494
+  },
+  {
+    "text": "Build a business continuity testing platform to run automated scenario simulations each quarter.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Operations",
+        "Cloud"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 495
+  },
+  {
+    "text": "Develop a sustainability strategy with measurable KPIs linked to executive compensation and ESG reporting.",
+    "labels": {
+      "objective": "risk_mitigation",
+      "domain": [
+        "Other"
+      ],
+      "impact": [
+        "Risk"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 496
+  },
+  {
+    "text": "Wholesale buyers asked for configurable catalog views per region — blocking renewal of master agreement.",
+    "labels": {
+      "objective": "cx_improvement",
+      "domain": [
+        "Cloud",
+        "Operations"
+      ],
+      "impact": [
+        "CustomerExperience",
+        "Revenue"
+      ],
+      "origin": "client_request"
+    },
+    "source": "synthetic",
+    "id": 497
+  },
+  {
+    "text": "Implement an automated document management solution to reduce administrative workload.",
+    "labels": {
+      "objective": "cost_reduction",
+      "domain": [
+        "Operations",
+        "AI"
+      ],
+      "impact": [
+        "Cost"
+      ],
+      "origin": "operational_problem"
+    },
+    "source": "synthetic",
+    "id": 498
+  },
+  {
+    "text": "Launch a digital-first insurance product for gig-economy workers — currently an underserved segment.",
+    "labels": {
+      "objective": "market_opportunity",
+      "domain": [
+        "Finance",
+        "Cloud"
+      ],
+      "impact": [
+        "Revenue"
+      ],
+      "origin": "market_driver"
+    },
+    "source": "synthetic",
+    "id": 499
+  }
+]

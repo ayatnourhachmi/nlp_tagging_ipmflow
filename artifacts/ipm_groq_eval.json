@@ -1,0 +1,84 @@
+{
+  "model": "IPM Groq LLM — llama-3.3-70b-versatile",
+  "avg_f1": 0.7387,
+  "n_test": 100,
+  "n_success": 88,
+  "n_errors": 12,
+  "avg_latency_ms": 4594.5,
+  "classifiers": {
+    "objective": {
+      "f1": 0.8228
+    },
+    "domain": {
+      "f1": 0.7044
+    },
+    "impact": {
+      "f1": 0.7926
+    },
+    "origin": {
+      "f1": 0.6348
+    }
+  },
+  "errors": [
+    {
+      "index": 9,
+      "text": "Business priority: insurance regulator asked for explainable AI on underwriting ",
+      "error": "Connection error."
+    },
+    {
+      "index": 23,
+      "text": "Deploy a supplier risk management solution to anticipate supply disruptions.",
+      "error": "Expecting ',' delimiter: line 6 column 33 (char 189)"
+    },
+    {
+      "index": 78,
+      "text": "Establish a red-team-as-a-service program with quarterly adversary simulation ex",
+      "error": "Connection error."
+    },
+    {
+      "index": 79,
+      "text": "Transfer pricing documentation for 22 jurisdictions is assembled manually each y",
+      "error": "Connection error."
+    },
+    {
+      "index": 80,
+      "text": "Implement a digital loyalty program to improve customer retention by 15%.",
+      "error": "Connection error."
+    },
+    {
+      "index": 93,
+      "text": "Build a multimodal AI system that classifies product images and descriptions for",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpm9mzpsfbev9j9szqy9qm92` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99332, Requested 1068. Please try again in 5m45.6s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "index": 94,
+      "text": "Roll out an IoT data ingestion platform to collect sensor telemetry from 50,000 ",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpm9mzpsfbev9j9szqy9qm92` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99330, Requested 1068. Please try again in 5m43.872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "index": 95,
+      "text": "Establish a sabbatical and flexible leave management module that integrates with",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpm9mzpsfbev9j9szqy9qm92` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99329, Requested 1065. Please try again in 5m40.416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "index": 96,
+      "text": "Build a unified events platform to replace point-to-point integrations with a ce",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpm9mzpsfbev9j9szqy9qm92` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99328, Requested 1070. Please try again in 5m43.872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "index": 97,
+      "text": "Deploy pulse surveys with sentiment analysis to detect burnout in high-turnover ",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpm9mzpsfbev9j9szqy9qm92` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99327, Requested 1063. Please try again in 5m36.96s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "index": 98,
+      "text": "As part of the 2026 roadmap, set up automation for financial spreading and coven",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpm9mzpsfbev9j9szqy9qm92` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99326, Requested 1076. Please try again in 5m47.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "index": 99,
+      "text": "Implement an automated document management solution to reduce administrative wor",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpm9mzpsfbev9j9szqy9qm92` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99325, Requested 1058. Please try again in 5m30.912s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    }
+  ]
+}
